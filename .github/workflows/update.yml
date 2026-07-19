@@ -1,0 +1,37 @@
+name: daily-update
+
+# Runs every weekday at 13:00 UTC (20:00 Bangkok) — after all your Asian
+# markets have closed and EODHD has published the day's EOD data.
+on:
+  schedule:
+    - cron: "0 13 * * 1-5"
+  workflow_dispatch: {}        # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps (Yahoo fallback for SGX/Singapore)
+        run: pip install yfinance
+
+      - name: Refresh market data
+        env:
+          EODHD_API_KEY: ${{ secrets.EODHD_API_KEY }}
+        run: python update.py
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "stock-monitor-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data.js data.json
+          git commit -m "daily data $(date -u +%F)" || echo "no changes"
+          git push

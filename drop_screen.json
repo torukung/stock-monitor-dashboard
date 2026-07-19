@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "title": "Weekly Drop Screen",
+    "generated": "2026-07-19 02:28 UTC",
+    "week": "13–17 Jul 2026",
+    "source": "scheduled-task weekly-stock-drop-screen",
+    "filters": [
+      "IPO age < 5 yrs",
+      "2 straight yrs YoY growth",
+      "Strong / growing backlog"
+    ],
+    "in_out_rule": "Moving in = a name newly reaching the shortlist/closest-fit this week. Moving out = a prior candidate now screened out (failed a filter or no longer a fresh 15%+ decliner); it keeps its original since-date and ages off after a few weeks unless it re-qualifies.",
+    "framing": "Informational research from public web + free FMP/EODHD data — not financial advice. Free data is best-effort; names are excluded rather than guessed when a hard filter is unverifiable. The 50%/5x figures are the user's objective, not a prediction."
+  },
+  "recap": {
+    "headline": "A genuine down week — a broad chip/AI-capex selloff (SOX's worst week in over a year, ~−20% from its June record) plus a SpaceX-driven repricing of the whole space complex finally handed the screen a qualifier: Voyager (VOYG) fell ~17% while still passing all three filters, so for the first time in weeks a name clears both the 15% trigger AND the young-grower tests.",
+    "bullets": [
+      "US indices fell for the week: S&P 500 −1.55% to 7,457.69, Nasdaq Composite −2.9% to 25,520.24, Dow −0.93% to 52,146.42. Semiconductors led the drop — the PHLX Semiconductor Index (SOX) logged its steepest weekly loss in over a year and is down ~20% from its June record (a bear-market threshold), on fears AI hyperscalers may throttle infrastructure capex, amplified by strong new Chinese AI models (a 'DeepSeek moment 2.0'). Netflix fell ~9% after hours Friday on a soft Q3 revenue guide; Energy (+4.7%) was the lone bright spot as oil jumped ~10% on Middle-East tension.",
+      "The space complex was violently repriced after SpaceX's (SPCX) June-2026 listing removed the 'scarcity premium' that had supported public space names: over the trailing month Intuitive Machines (LUNR) −40%, Rocket Lab (RKLB) −24%, AST SpaceMobile −32%, SpaceX itself −34% (dipping below its IPO price). Voyager was swept up in this — down ~17% on the week — despite company-good news: it closed the Astrobotic acquisition with a $298M NASA award, signed Geisinger/Penn State MOUs, and won an agentic-AI contract. Morgan Stanley did downgrade VOYG to Underweight (PT $39) on 14 Jul.",
+      "Thailand had a mild UP week and again produced no qualifying decliner. The SET closed 17 Jul at 1,639.04 (up from ~1,621.55 on 10 Jul, ~+1.1% on the week), outperforming regional peers: power-plant names (led by GULF), oil-lifted energy stocks and defensives offset electronics-sector weakness from the global tech rout. The steepest SET-100 daily fallers were single-digit (e.g. STECON −3.7%, AMATA −2.6%)."
+    ],
+    "verdict": "1 name passes BOTH the 15% weekly-drop trigger AND all 3 filters: Voyager Technologies (VOYG) — last week's 'closest fit' (passed all filters but only fell ~9%) this week fell ~17% in the space-sector rout while its fundamentals were unchanged/improving, so it graduates to the shortlist. It is a sentiment/sector-driven drawdown, not a fundamental break — but note the Morgan Stanley downgrade and the sector's SpaceX-driven derating."
+  },
+  "suggested": [
+    {
+      "ticker": "VOYG",
+      "name": "Voyager Technologies",
+      "country": "US",
+      "sector": "Defense / space technology",
+      "last": 25.9,
+      "currency": "USD",
+      "drop_pct": -16.9,
+      "period": "wk 13–17 Jul (Fri close $25.90 vs $31.16)",
+      "status": "Shortlist",
+      "passes": [
+        "IPO 11 Jun 2025 (<5y) — confirmed via FMP profile ipoDate",
+        "Two straight growth years: FY24 $144.2M (+6% vs ~$136M FY23) then FY25 $166.4M (+15.4%)",
+        "Record backlog $275.3M, +54% YoY, ~1.3x book-to-bill; pipeline >$5B",
+        "NEW this week: fell ~17% (>15% trigger) in the space-sector rout"
+      ],
+      "fails": [],
+      "why_drop": "Swept up in a violent, SpaceX-driven repricing of the whole public space complex (LUNR −40%/mo, RKLB −24%/mo, SPCX −34%) plus the broad chip/AI risk-off week — not company news. In fact Voyager had good news: closed the Astrobotic acquisition with a $298M NASA award, signed Geisinger & Penn State MOUs, won an agentic-AI contract. Morgan Stanley did cut it to Underweight (PT $39) on 14 Jul.",
+      "bull": "The rare clean fit for the objective, and this week it finally gave the 15%+ entry: young (Jun'25 IPO), growing ~15%+, record and rising $275.3M backlog (+54% YoY) at ~1.3x book-to-bill, FY26 guide $230–255M (+38–53%), >$5B pipeline, three secular legs (Defense & National Security, Space Solutions, Starlab station) plus new lunar exposure via Astrobotic. ~$413M cash (Q3'25) topped up by a new $250M JPMorgan credit facility. Analysts average 'Buy', ~$43 mean target (~+68%).",
+      "bear": "Beta ~4 and a $52→$17 52-week round-trip show how sentiment-driven it is; the whole space sector is derating as SpaceX absorbs capital and scrutiny, and Morgan Stanley just cut it to Underweight. Still deeply loss-making (TTM net loss −$127M; Q1'26 adj. EBITDA −$33M) on small revenue (~$167M), so the rich multiple relies on backlog converting on time. Astrobotic adds integration/cash-burn risk; Starlab is long-dated and capital-intensive.",
+      "rev_unit": "$M",
+      "earnings": [
+        {"label": "FY23", "rev": 136, "res": "inline"},
+        {"label": "FY24", "rev": 144, "res": "inline"},
+        {"label": "FY25", "rev": 166, "res": "beat"},
+        {"label": "Q1'26", "rev": 35.2, "res": "inline"}
+      ],
+      "backlog": "Record $275.3M, up 54% YoY (Q1'26); ~1.3x book-to-bill; Q1'26 bookings $45.2M; management pipeline >$5B. Strong, growing forward visibility.",
+      "cash": "~$413M cash, no debt (Q3'25), plus a new upsized $250M J.P. Morgan credit facility (Jul 2026). TTM net loss −$127M; Q1'26 adj. EBITDA −$33M; adj. EPS −$0.61.",
+      "guide": "FY2026 revenue guidance raised to $230–255M (+38–53% YoY).",
+      "note": "FY23 implied from the +5.97% FY24 growth; FY25 = $166.4M actual (+15.4%); Q1'26 = $35.2M net sales (bookings $45.2M, 1.3x book-to-bill). 'res' reflects growth/booking direction, not formal consensus. Passes all 3 hard filters AND triggered the 15% weekly drop this week — the standout fit."
+    }
+  ],
+  "countries": [
+    {
+      "code": "TH",
+      "name": "Thailand",
+      "verdict": "No qualifying decliners — a mild UP week that outperformed the region. SET closed 17 Jul at 1,639.04 (from ~1,621.55 on 10 Jul, ~+1.1% on the week); power-plant names (led by GULF), oil-lifted energy stocks and defensives offset electronics weakness from the global tech rout. The steepest SET-100 fallers were single-digit; any 15%+ moves were penny/floor-limit shells (excluded), and full-market loser pages remain JS-rendered / not fetchable.",
+      "decliners": [
+        {
+          "ticker": "STECON",
+          "name": "Stecon Group",
+          "last": 18.1,
+          "currency": "THB",
+          "drop_pct": -3.72,
+          "period": "Mon 13 Jul (1-day, SET100 top loser)",
+          "verdict": "Biggest SET-100 daily decliner on 13 Jul but only −3.7% (still +185% YTD) — nowhere near the 15% screen; construction/engineering contractor, not a young-growth-plus-backlog fit for this screen's universe.",
+          "tag": "fail"
+        },
+        {
+          "ticker": "AMATA",
+          "name": "Amata Corporation",
+          "last": 27.75,
+          "currency": "THB",
+          "drop_pct": -2.63,
+          "period": "Mon 13 Jul (1-day)",
+          "verdict": "Industrial-estate developer; small profit-taking pullback (−2.6%), far from the screen; mature large-cap.",
+          "tag": "fail"
+        },
+        {
+          "ticker": "DELTA",
+          "name": "Delta Electronics (Thailand)",
+          "last": null,
+          "currency": "THB",
+          "drop_pct": null,
+          "period": "wk 13–17 Jul",
+          "verdict": "Electronics sector was the main drag on the mid-week global tech rout, but Delta's move was single-digit — not a 15% decliner; mature electronics manufacturer with no young-growth/backlog profile.",
+          "tag": "fail"
+        }
+      ]
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "verdict": "A genuine DOWN week led by semiconductors (S&P −1.55%, Nasdaq −2.9%; SOX's worst week in over a year, ~−20% from its June record). Voyager (VOYG) −17% is the standout: it passes all 3 filters and finally triggered the 15% entry in the SpaceX-driven space rout (see Suggested). The week's other big decliners fail the young-grower tests — Pentair (−21%, guidance cut + CFO exit, mature), Intuitive Surgical (earnings, mature), Netflix (−9%, soft guide, mature) — and the rest of the space complex (LUNR, RKLB, SPCX) fails on age or unverified growth/backlog.",
+      "decliners": [
+        {
+          "ticker": "VOYG",
+          "name": "Voyager Technologies",
+          "last": 25.9,
+          "currency": "USD",
+          "drop_pct": -16.9,
+          "period": "wk 13–17 Jul (Fri close $25.90)",
+          "verdict": "Passes all 3 filters (Jun'25 IPO, two straight growth years, record $275.3M backlog +54% YoY at 1.3x book-to-bill) AND fell ~17% this week — the first name in weeks to clear both the trigger and every filter. Sentiment/sector-driven drop (space-complex repricing + chip risk-off + a Morgan Stanley downgrade), not a fundamental break. See Suggested.",
+          "tag": "closest",
+          "earnings": [
+            {"label": "FY23", "rev": 136, "res": "inline"},
+            {"label": "FY24", "rev": 144, "res": "inline"},
+            {"label": "FY25", "rev": 166, "res": "beat"},
+            {"label": "Q1'26", "rev": 35.2, "res": "inline"}
+          ],
+          "backlog": "Record $275.3M, +54% YoY (Q1'26); ~1.3x book-to-bill; pipeline >$5B",
+          "cash": "~$413M cash + new $250M JPM facility; FY26 guide $230–255M (+38–53%)"
+        },
+        {
+          "ticker": "PNR",
+          "name": "Pentair",
+          "last": null,
+          "currency": "USD",
+          "drop_pct": -20.7,
+          "period": "wk 13–17 Jul (−20.7% on the guidance-cut day)",
+          "verdict": "Steepest large-cap decliner — cut Q2 and full-year 2026 guidance and its CFO resigned. A mature water-treatment industrial (public for decades), so fails the IPO-age filter, and the drop is a guidance/leadership event, not a young-grower dip. Excluded.",
+          "tag": "fail"
+        },
+        {
+          "ticker": "ISRG",
+          "name": "Intuitive Surgical",
+          "last": 402.33,
+          "currency": "USD",
+          "drop_pct": -10.0,
+          "period": "wk 13–17 Jul (−~10% Thu on earnings; +3.4% Fri)",
+          "verdict": "Fell ~10% Thursday after Q2 results topped consensus but the outlook wasn't raised (da Vinci procedure growth guided +13.5–15.5%); recovered +3.4% Friday. Mature mega-cap (IPO 2000) — fails the age filter; below the 15% weekly bar anyway.",
+          "tag": "fail"
+        },
+        {
+          "ticker": "LUNR",
+          "name": "Intuitive Machines",
+          "last": null,
+          "currency": "USD",
+          "drop_pct": -20.0,
+          "period": "wk 13–17 Jul (part of a ~40%/month space slide)",
+          "verdict": "Down hard in the space rout (7-day losing streak; ~−40% on the month). SPAC listing Feb 2023 (~3.4y) passes the age filter, but revenue is lumpy/milestone-driven and neither two straight years of growth nor a strong disclosed backlog could be verified this run — excluded rather than guessed. Worth re-checking next week.",
+          "tag": "fail"
+        },
+        {
+          "ticker": "SPCX",
+          "name": "SpaceX",
+          "last": 131.11,
+          "currency": "USD",
+          "drop_pct": -12.0,
+          "period": "wk 13–17 Jul (dipped below its Jun'26 IPO price)",
+          "verdict": "The cause of the sector repricing rather than a screen candidate: a June-2026 IPO mega-cap (~$1T+) whose scarcity premium is draining peers. Too large / newly-public to verify two straight public-company growth years, and it is the opposite of a high-upside small dip-buy. Noted as context.",
+          "tag": "size"
+        },
+        {
+          "ticker": "NFLX",
+          "name": "Netflix",
+          "last": 74.35,
+          "currency": "USD",
+          "drop_pct": -9.0,
+          "period": "wk 13–17 Jul (−9% after hours Fri on soft Q3 guide)",
+          "verdict": "Below the 15% bar. Fell on a light Q3 revenue forecast; down ~21% YTD. Mature mega-cap — fails the age filter and has no order backlog. Context only.",
+          "tag": "fail"
+        }
+      ]
+    }
+  ],
+  "moving_in": [
+    {
+      "ticker": "VOYG",
+      "country": "US",
+      "sector": "Defense / space tech",
+      "since": "2026-07-12",
+      "why": "Graduated from 'closest fit' to shortlist: still passes all 3 filters (Jun'25 IPO, two straight growth years, record $275.3M backlog +54% YoY at 1.3x book-to-bill) and this week finally fell >15% (~−17%) in the SpaceX-driven space rout — a sector/sentiment drawdown, not a fundamental break. Caveat: Morgan Stanley cut it to Underweight (PT $39) on 14 Jul."
+    }
+  ],
+  "moving_out": [
+    {
+      "ticker": "ZJK",
+      "country": "US",
+      "sector": "Industrials / fasteners",
+      "since": "2026-07-12",
+      "why": "Prior closest-fit, screened out last week (no fresh 15%+ drop and still discloses no backlog); no new decliner trigger this week."
+    }
+  ]
+}

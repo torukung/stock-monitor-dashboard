@@ -1,0 +1,15 @@
+{
+  "note": "Universe for sensor_scan.py — add/remove names freely. Symbol format: TICKER.BK (EODHD). Seeded with the 10 studied movers; extend with your broker's coverage list or any SET/mai names <= 15 THB you want watched.",
+  "universe": [
+    {"ticker": "SALEE", "symbol": "SALEE.BK"},
+    {"ticker": "TPIPL", "symbol": "TPIPL.BK"},
+    {"ticker": "TPIPP", "symbol": "TPIPP.BK"},
+    {"ticker": "STPI",  "symbol": "STPI.BK"},
+    {"ticker": "EPG",   "symbol": "EPG.BK"},
+    {"ticker": "LTS",   "symbol": "LTS.BK"},
+    {"ticker": "S",     "symbol": "S.BK"},
+    {"ticker": "PLAT",  "symbol": "PLAT.BK"},
+    {"ticker": "MGC",   "symbol": "MGC.BK"},
+    {"ticker": "CAZ",   "symbol": "CAZ.BK"}
+  ]
+}

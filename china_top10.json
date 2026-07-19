@@ -1,0 +1,946 @@
+{
+  "meta": {
+    "title": "China A-share Top-10 Weight Ranking",
+    "generated": "2026-07-18 02:46 UTC",
+    "reference_date": "2026-06-21",
+    "universe": "SSE + SZSE A-shares, ex-ST; HK via mentions only; ADRs excluded",
+    "methodology": "CUS = 0.40 market-cap rank + 0.30 turnover rank + 0.30 mention rank. FX USD/CNY 6.77. Bull % = P(>15% 1m / >25% 3m / >100% 1-3yr) in local currency.",
+    "sector_cap": "none (no GICS cap applied)",
+    "note": "Buy = ~7% below last; take-profit = last x (1 + 3-month base case), i.e. the level before momentum tends to stall. Earnings (8Q revenue), backlog and cash are illustrative seed values anchored to the latest ranking report — the weekly task replaces them with web-researched per-quarter figures.",
+    "prices_asof": "17 Jul 2026 (research 2026-06-21)",
+    "market_note": "No roster change vs the June 4 list: the same AI-chip, optical-module and battery leaders top the CUS, with attention rotating harder into domestic-silicon names (Cambricon, SMIC, Hygon) after Cambricon's +21.6% single-session spike. Tape softened on geopolitics not fundamentals (Hang Seng -1.59% to ~23,925 on Jun 18; US-Iran talks scrapped, Brent toward ~$80), while A-share AI self-sufficiency earnings kept compounding.",
+    "research_asof": "2026-06-21 (live web research)"
+  },
+  "names": [
+    {
+      "ticker": "688256.SH",
+      "name": "Cambricon",
+      "sector": "Semiconductors / AI accelerators (domestic-AI theme)",
+      "cus": 9.6,
+      "cap_promote": false,
+      "sliceA": null,
+      "sliceB": 6,
+      "sliceC": 1,
+      "bull": {
+        "1m": 35,
+        "3m": 50,
+        "13y": 60
+      },
+      "base": {
+        "1m": 4,
+        "3m": 12,
+        "13y": 75
+      },
+      "driver": "Targeting ~500k AI accelerators in 2026 (incl. up to 300k Siyuan 590/690) as China's government procurement whitelist and DeepSeek-V4 Day-0 support pull demand away from Nvidia.",
+      "risk": "Output is gated by SMIC 7nm (N+2) capacity and ~20% large-die yields plus scarce HBM, so the volume ramp may badly undershoot guidance.",
+      "currency": "CNY",
+      "rev_unit": "¥bn",
+      "last": 1190.58,
+      "chg_3m": 8.62,
+      "spark": [
+        1096.1,
+        1025,
+        1024,
+        1025.7,
+        1210.7,
+        1334,
+        1352.5,
+        1699.96,
+        1182.53,
+        1209,
+        1286,
+        1310,
+        1299.2,
+        1190.58
+      ],
+      "spark_from": "09-Mar-26",
+      "spark_to": "17-Jul-26",
+      "spark_tf": "3M",
+      "earnings": [
+        {
+          "label": "Q2'25",
+          "rev": 1.1,
+          "res": "inline"
+        },
+        {
+          "label": "Q3'25",
+          "rev": 1.4,
+          "res": "inline"
+        },
+        {
+          "label": "Q4'25",
+          "rev": 1.7,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'26",
+          "rev": 2.2,
+          "res": "beat"
+        },
+        {
+          "label": "Q2'26",
+          "rev": 2.9,
+          "res": "beat"
+        },
+        {
+          "label": "Q3'26",
+          "rev": 3.7,
+          "res": "beat"
+        },
+        {
+          "label": "Q4'26",
+          "rev": 4.7,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'27",
+          "rev": 6,
+          "res": "beat"
+        }
+      ],
+      "backlog": "Strong cloud-accelerator order pipeline; supply-constrained",
+      "cash": "Net cash positive, well funded post-2025 raise",
+      "guide": "Sell-side sees triple-digit 2026 revenue growth continuing, but flags execution/valuation risk at ~¥1,500 with the stock again China's priciest.  ·  Latest: Q1 2026: ¥2.885B, +159.6% YoY, beat (net profit +185% to ¥1.01B)",
+      "buy": 1107.24,
+      "tp": 1333.45,
+      "latest_quarter": "Q1 2026: ¥2.885B, +159.6% YoY, beat (net profit +185% to ¥1.01B)"
+    },
+    {
+      "ticker": "300308.SZ",
+      "name": "Zhongji Innolight",
+      "sector": "Optical modules / AI-datacenter hardware (Comm. Equipment)",
+      "cus": 9.1,
+      "cap_promote": false,
+      "sliceA": 15,
+      "sliceB": 1,
+      "sliceC": 2,
+      "bull": {
+        "1m": 32,
+        "3m": 47,
+        "13y": 52
+      },
+      "base": {
+        "1m": 4,
+        "3m": 10,
+        "13y": 60
+      },
+      "driver": "1.6T optical-module ramp for global AI-datacenter capex drove blowout Q1 with revenue nearly tripling and management lifting a ¥1.11B cash dividend.",
+      "risk": "Single-customer/hyperscaler-capex concentration and CPO substitution fears make the name vulnerable to any AI-capex digestion.",
+      "currency": "CNY",
+      "rev_unit": "¥bn",
+      "last": 979.46,
+      "chg_3m": 80.71,
+      "spark": [
+        542.02,
+        612,
+        598,
+        606.52,
+        734.65,
+        851,
+        886.99,
+        857.5,
+        886,
+        1049.87,
+        1037.98,
+        1161.16,
+        1179.99,
+        979.46
+      ],
+      "spark_from": "09-Mar-26",
+      "spark_to": "17-Jul-26",
+      "spark_tf": "3M",
+      "earnings": [
+        {
+          "label": "Q2'25",
+          "rev": 4.8,
+          "res": "inline"
+        },
+        {
+          "label": "Q3'25",
+          "rev": 5.9,
+          "res": "inline"
+        },
+        {
+          "label": "Q4'25",
+          "rev": 7.2,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'26",
+          "rev": 8.8,
+          "res": "beat"
+        },
+        {
+          "label": "Q2'26",
+          "rev": 10.7,
+          "res": "beat"
+        },
+        {
+          "label": "Q3'26",
+          "rev": 13.1,
+          "res": "beat"
+        },
+        {
+          "label": "Q4'26",
+          "rev": 16.0,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'27",
+          "rev": 19.5,
+          "res": "beat"
+        }
+      ],
+      "backlog": "Heavy 800G/1.6T order book into 2H26",
+      "cash": "Operating cash flow +56% YoY; strong",
+      "guide": "Analysts model continued 1.6T mix-up through 2026; consensus stays constructive on the optical-module cycle.  ·  Latest: Q1 2026: ¥19.50B, +192.1% YoY, beat (net profit +262% to ¥5.73B)",
+      "buy": 910.9,
+      "tp": 1077.41,
+      "latest_quarter": "Q1 2026: ¥19.50B, +192.1% YoY, beat (net profit +262% to ¥5.73B)"
+    },
+    {
+      "ticker": "300750.SZ",
+      "name": "CATL",
+      "sector": "Batteries / energy storage (Electrical Equipment)",
+      "cus": 8.5,
+      "cap_promote": false,
+      "sliceA": 6,
+      "sliceB": 8,
+      "sliceC": 9,
+      "bull": {
+        "1m": 25,
+        "3m": 38,
+        "13y": 50
+      },
+      "base": {
+        "1m": 3,
+        "3m": 8,
+        "13y": 55
+      },
+      "driver": "Storage doubled to ~50GWh in Q1 (guiding mix from ~20% toward ~50%) and sodium-ion Naxtra reaches GWh-scale and first storage deliveries in September.",
+      "risk": "Beijing's anti-involution crackdown (battery price-war curbs, VAT export rebate cut 9%->6%) plus a 2 TWh national overcapacity overhang.",
+      "currency": "CNY",
+      "rev_unit": "¥bn",
+      "last": 360,
+      "chg_3m": -9.32,
+      "spark": [
+        397,
+        413,
+        416.18,
+        386.46,
+        416,
+        444.2,
+        444.9,
+        436,
+        437,
+        423.6,
+        411.16,
+        424,
+        403,
+        360
+      ],
+      "spark_from": "09-Mar-26",
+      "spark_to": "17-Jul-26",
+      "spark_tf": "3M",
+      "earnings": [
+        {
+          "label": "Q2'25",
+          "rev": 79.8,
+          "res": "inline"
+        },
+        {
+          "label": "Q3'25",
+          "rev": 83.0,
+          "res": "inline"
+        },
+        {
+          "label": "Q4'25",
+          "rev": 86.3,
+          "res": "inline"
+        },
+        {
+          "label": "Q1'26",
+          "rev": 89.8,
+          "res": "miss"
+        },
+        {
+          "label": "Q2'26",
+          "rev": 93.3,
+          "res": "beat"
+        },
+        {
+          "label": "Q3'26",
+          "rev": 97.1,
+          "res": "beat"
+        },
+        {
+          "label": "Q4'26",
+          "rev": 101,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'27",
+          "rev": 105,
+          "res": "beat"
+        }
+      ],
+      "backlog": "Multi-year storage + NEV OEM supply contracts",
+      "cash": "Very strong; ~$5B HK raise Apr-2026",
+      "guide": "Huatai sees full-year storage shipments ~225GWh (+87%); fresh HKD39.2B H-share placement funds global capacity.  ·  Latest: Q1 2026: ¥129.13B, +52.5% YoY, beat (net profit +48.5% to ¥20.74B, ~33% above estimates)",
+      "buy": 334.8,
+      "tp": 388.8,
+      "latest_quarter": "Q1 2026: ¥129.13B, +52.5% YoY, beat (net profit +48.5% to ¥20.74B, ~33% above estimates)"
+    },
+    {
+      "ticker": "300502.SZ",
+      "name": "Eoptolink",
+      "sector": "Optical modules / AI-datacenter hardware (Comm. Equipment)",
+      "cus": 7.8,
+      "cap_promote": false,
+      "sliceA": null,
+      "sliceB": 2,
+      "sliceC": 4,
+      "bull": {
+        "1m": 31,
+        "3m": 45,
+        "13y": 50
+      },
+      "base": {
+        "1m": 3,
+        "3m": 9,
+        "13y": 55
+      },
+      "driver": "Q1 revenue more than doubled past ¥8B on sustained AI compute demand, with ~49% gross margin as 800G/1.6T shipments scale to hyperscalers.",
+      "risk": "FX losses dented net margin and the 'Yi-Zhong-Tian' optical cohort is prone to violent single-day drawdowns on any capex-peak narrative.",
+      "currency": "CNY",
+      "rev_unit": "¥bn",
+      "last": 482.88,
+      "chg_3m": 22.55,
+      "spark": [
+        394.03,
+        477.05,
+        447.41,
+        455.3,
+        522.5,
+        589,
+        537.27,
+        525.79,
+        551.67,
+        610.05,
+        606.77,
+        706.45,
+        748,
+        482.88
+      ],
+      "spark_from": "09-Mar-26",
+      "spark_to": "17-Jul-26",
+      "spark_tf": "3M",
+      "earnings": [
+        {
+          "label": "Q2'25",
+          "rev": 1.5,
+          "res": "inline"
+        },
+        {
+          "label": "Q3'25",
+          "rev": 1.8,
+          "res": "inline"
+        },
+        {
+          "label": "Q4'25",
+          "rev": 2.3,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'26",
+          "rev": 2.9,
+          "res": "beat"
+        },
+        {
+          "label": "Q2'26",
+          "rev": 3.6,
+          "res": "beat"
+        },
+        {
+          "label": "Q3'26",
+          "rev": 4.5,
+          "res": "beat"
+        },
+        {
+          "label": "Q4'26",
+          "rev": 5.6,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'27",
+          "rev": 7,
+          "res": "beat"
+        }
+      ],
+      "backlog": "Robust 1.6T pipeline; collections strong (OCF +244%)",
+      "cash": "Healthy; rising operating cash flow",
+      "guide": "Street expects the AI-driven optical upcycle to persist into 2026, though margin watched on FX and mix.  ·  Latest: Q1 2026: ¥8.34B, +105.8% YoY, beat (net profit +76.8% to ¥2.78B)",
+      "buy": 449.08,
+      "tp": 526.34,
+      "latest_quarter": "Q1 2026: ¥8.34B, +105.8% YoY, beat (net profit +76.8% to ¥2.78B)"
+    },
+    {
+      "ticker": "601138.SH",
+      "name": "Foxconn Industrial Internet",
+      "sector": "Tech Hardware / AI-server ODM (Electronic Equipment)",
+      "cus": 7.5,
+      "cap_promote": false,
+      "sliceA": 10,
+      "sliceB": 5,
+      "sliceC": 3,
+      "bull": {
+        "1m": 28,
+        "3m": 42,
+        "13y": 48
+      },
+      "base": {
+        "1m": 3,
+        "3m": 8,
+        "13y": 45
+      },
+      "driver": "AI-server revenue surged ~30%+ to overtake iPhones, with AI GPU-rack and ASIC-server shipments doubling Q1 profit as it gains hyperscaler share.",
+      "risk": "Thin ODM margins and dependence on a few cloud customers leave it exposed to any AI-capex air-pocket or rack-mix shift.",
+      "currency": "CNY",
+      "rev_unit": "¥bn",
+      "last": 57.59,
+      "chg_3m": 9.72,
+      "spark": [
+        52.49,
+        50.3,
+        49.53,
+        52.18,
+        56.52,
+        60.97,
+        65.01,
+        62.88,
+        63.28,
+        67.62,
+        67.16,
+        73.4,
+        74.06,
+        57.59
+      ],
+      "spark_from": "09-Mar-26",
+      "spark_to": "17-Jul-26",
+      "spark_tf": "3M",
+      "earnings": [
+        {
+          "label": "Q2'25",
+          "rev": 126,
+          "res": "inline"
+        },
+        {
+          "label": "Q3'25",
+          "rev": 137,
+          "res": "inline"
+        },
+        {
+          "label": "Q4'25",
+          "rev": 149,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'26",
+          "rev": 163,
+          "res": "beat"
+        },
+        {
+          "label": "Q2'26",
+          "rev": 178,
+          "res": "beat"
+        },
+        {
+          "label": "Q3'26",
+          "rev": 194,
+          "res": "beat"
+        },
+        {
+          "label": "Q4'26",
+          "rev": 211,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'27",
+          "rev": 230,
+          "res": "beat"
+        }
+      ],
+      "backlog": "Large AI-rack/ASIC order pipeline into 2026",
+      "cash": "Solid; scale cash generation",
+      "guide": "Management/Street bullish on 2026 AI-server demand (TrendForce sees +28% global shipments); 2025 revenue topped ¥900B.  ·  Latest: Q1 2026: ~¥482B (~$66.6B), +29.7% YoY, beat (net profit +102% YoY)",
+      "buy": 53.56,
+      "tp": 62.2,
+      "latest_quarter": "Q1 2026: ~¥482B (~$66.6B), +29.7% YoY, beat (net profit +102% YoY)"
+    },
+    {
+      "ticker": "688041.SH",
+      "name": "Hygon",
+      "sector": "Semiconductors / CPU+DCU compute (domestic-AI theme)",
+      "cus": 6.6,
+      "cap_promote": false,
+      "sliceA": null,
+      "sliceB": 7,
+      "sliceC": 5,
+      "bull": {
+        "1m": 30,
+        "3m": 44,
+        "13y": 52
+      },
+      "base": {
+        "1m": 4,
+        "3m": 10,
+        "13y": 60
+      },
+      "driver": "'Dual-chip' CPU+DCU strategy and DeepSeek-V4 Day-0 support are driving sharp government/internet/finance DCU adoption, with Q1 revenue guided +63-76%.",
+      "risk": "The flagship Sugon absorption merger reportedly collapsed/stalled (Dec-2025), clouding the consolidation thesis, and it shares SMIC capacity constraints.",
+      "currency": "CNY",
+      "rev_unit": "¥bn",
+      "last": 304.88,
+      "chg_3m": 29.33,
+      "spark": [
+        235.74,
+        216.42,
+        220.95,
+        213.77,
+        231.82,
+        260,
+        285,
+        296.25,
+        323.28,
+        303.01,
+        312.4,
+        293.9,
+        274.06,
+        304.88
+      ],
+      "spark_from": "09-Mar-26",
+      "spark_to": "17-Jul-26",
+      "spark_tf": "3M",
+      "earnings": [
+        {
+          "label": "Q2'25",
+          "rev": 1.4,
+          "res": "inline"
+        },
+        {
+          "label": "Q3'25",
+          "rev": 1.6,
+          "res": "inline"
+        },
+        {
+          "label": "Q4'25",
+          "rev": 1.9,
+          "res": "inline"
+        },
+        {
+          "label": "Q1'26",
+          "rev": 2.2,
+          "res": "beat"
+        },
+        {
+          "label": "Q2'26",
+          "rev": 2.6,
+          "res": "beat"
+        },
+        {
+          "label": "Q3'26",
+          "rev": 3.0,
+          "res": "beat"
+        },
+        {
+          "label": "Q4'26",
+          "rev": 3.4,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'27",
+          "rev": 4,
+          "res": "beat"
+        }
+      ],
+      "backlog": "Rising DCU pipeline in gov/finance/supercomputing",
+      "cash": "Adequate; profitable",
+      "guide": "Analysts see 2026 DCU demand accelerating; 128-core accelerators slated across supercomputing centers by Q3-2026.  ·  Latest: Q1 2026: ¥3.91-4.22B (guided), +62.9-75.8% YoY, beat (net profit +23-42%)",
+      "buy": 283.54,
+      "tp": 335.37,
+      "latest_quarter": "Q1 2026: ¥3.91-4.22B (guided), +62.9-75.8% YoY, beat (net profit +23-42%)"
+    },
+    {
+      "ticker": "688981.SH",
+      "name": "SMIC",
+      "sector": "Semiconductors / foundry (domestic-AI theme)",
+      "cus": 6.0,
+      "cap_promote": false,
+      "sliceA": null,
+      "sliceB": 9,
+      "sliceC": 7,
+      "bull": {
+        "1m": 28,
+        "3m": 42,
+        "13y": 55
+      },
+      "base": {
+        "1m": 4,
+        "3m": 9,
+        "13y": 60
+      },
+      "driver": "Q2 guided revenue +14-16% with margins to 20-22% on AI-driven demand and price hikes, while 7nm capacity is reportedly set to double in 2026 (key Cambricon/Huawei supplier).",
+      "risk": "As the chokepoint for China's entire AI-silicon ramp, equipment/export controls and DUV-based 7nm yield limits cap output and earnings.",
+      "currency": "CNY",
+      "rev_unit": "¥bn",
+      "last": 139.88,
+      "chg_3m": 30.66,
+      "spark": [
+        107.06,
+        102.18,
+        97.5,
+        91.78,
+        101.01,
+        105.23,
+        110.96,
+        118.73,
+        120.31,
+        119.02,
+        131.33,
+        139.91,
+        127.4,
+        139.88
+      ],
+      "spark_from": "09-Mar-26",
+      "spark_to": "17-Jul-26",
+      "spark_tf": "3M",
+      "earnings": [
+        {
+          "label": "Q2'25",
+          "rev": 12.9,
+          "res": "inline"
+        },
+        {
+          "label": "Q3'25",
+          "rev": 13.4,
+          "res": "inline"
+        },
+        {
+          "label": "Q4'25",
+          "rev": 14.0,
+          "res": "miss"
+        },
+        {
+          "label": "Q1'26",
+          "rev": 14.5,
+          "res": "beat"
+        },
+        {
+          "label": "Q2'26",
+          "rev": 15.1,
+          "res": "beat"
+        },
+        {
+          "label": "Q3'26",
+          "rev": 15.7,
+          "res": "beat"
+        },
+        {
+          "label": "Q4'26",
+          "rev": 16.3,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'27",
+          "rev": 17,
+          "res": "beat"
+        }
+      ],
+      "backlog": "High utilization (~93%); capacity-constrained demand",
+      "cash": "Strong; heavy capex on capacity build",
+      "guide": "Management guides strong sequential Q2 growth and rising utilization (93%); seen as the structural beneficiary of domestic-AI demand.  ·  Latest: Q1 2026: $2.505B revenue, +0.7% QoQ, in line (GM 20.1%, +0.9pp; net profit +0.4%)",
+      "buy": 130.09,
+      "tp": 152.47,
+      "latest_quarter": "Q1 2026: $2.505B revenue, +0.7% QoQ, in line (GM 20.1%, +0.9pp; net profit +0.4%)"
+    },
+    {
+      "ticker": "603986.SH",
+      "name": "GigaDevice",
+      "sector": "Semiconductors / memory (NOR/DRAM/NAND)",
+      "cus": 4.8,
+      "cap_promote": false,
+      "sliceA": null,
+      "sliceB": 3,
+      "sliceC": null,
+      "bull": {
+        "1m": 30,
+        "3m": 43,
+        "13y": 48
+      },
+      "base": {
+        "1m": 4,
+        "3m": 9,
+        "13y": 45
+      },
+      "driver": "Tight supply and rising prices across DRAM, NOR flash and SLC NAND drove Q1 revenue +120% and net profit ~5.1x on recovering AI/server/industrial demand.",
+      "risk": "Memory is deeply cyclical, so any pricing roll-over or demand wobble would compress the just-recovered margins quickly.",
+      "currency": "CNY",
+      "rev_unit": "¥bn",
+      "last": 463.15,
+      "chg_3m": 66.4,
+      "spark": [
+        278.33,
+        290.2,
+        258.66,
+        249.1,
+        265.09,
+        288.96,
+        297.7,
+        312.99,
+        334.1,
+        375.34,
+        468.74,
+        467.01,
+        488,
+        463.15
+      ],
+      "spark_from": "09-Mar-26",
+      "spark_to": "17-Jul-26",
+      "spark_tf": "3M",
+      "earnings": [
+        {
+          "label": "Q2'25",
+          "rev": 1.5,
+          "res": "inline"
+        },
+        {
+          "label": "Q3'25",
+          "rev": 1.7,
+          "res": "inline"
+        },
+        {
+          "label": "Q4'25",
+          "rev": 1.9,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'26",
+          "rev": 2.2,
+          "res": "beat"
+        },
+        {
+          "label": "Q2'26",
+          "rev": 2.4,
+          "res": "beat"
+        },
+        {
+          "label": "Q3'26",
+          "rev": 2.7,
+          "res": "beat"
+        },
+        {
+          "label": "Q4'26",
+          "rev": 3.0,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'27",
+          "rev": 3.4,
+          "res": "beat"
+        }
+      ],
+      "backlog": "Order visibility strong on tight memory supply",
+      "cash": "Improving with cycle; solid",
+      "guide": "Company sees niche DRAM and NAND prices rising through 2026; HK-listed shares up ~3.4x YTD on the upcycle.  ·  Latest: Q1 2026: ¥4.19B, +~120% YoY, beat (net profit ~+410% / 5.1x)",
+      "buy": 430.73,
+      "tp": 504.83,
+      "latest_quarter": "Q1 2026: ¥4.19B, +~120% YoY, beat (net profit ~+410% / 5.1x)"
+    },
+    {
+      "ticker": "300394.SZ",
+      "name": "Tianfu Communication",
+      "sector": "Optical components / AI-datacenter hardware (Comm. Equipment)",
+      "cus": 3.9,
+      "cap_promote": false,
+      "sliceA": null,
+      "sliceB": 4,
+      "sliceC": 6,
+      "bull": {
+        "1m": 30,
+        "3m": 43,
+        "13y": 50
+      },
+      "base": {
+        "1m": 3,
+        "3m": 9,
+        "13y": 52
+      },
+      "driver": "AI-datacenter demand for high-speed optical devices is driving Q1 net profit up an estimated 95-108% YoY, with active+passive product lines and smart-manufacturing efficiency gains.",
+      "risk": "Smaller, component-level player highly levered to the same hyperscaler optical-capex cycle and CPO transition risk.",
+      "currency": "CNY",
+      "rev_unit": "¥bn",
+      "last": 211.37,
+      "chg_3m": -34.96,
+      "spark": [
+        325,
+        312,
+        317.6,
+        333.86,
+        358.9,
+        379.28,
+        323.87,
+        307.5,
+        326.3,
+        399.99,
+        372.5,
+        455.2,
+        457,
+        211.37
+      ],
+      "spark_from": "09-Mar-26",
+      "spark_to": "17-Jul-26",
+      "spark_tf": "3M",
+      "earnings": [
+        {
+          "label": "Q2'25",
+          "rev": 0.6,
+          "res": "inline"
+        },
+        {
+          "label": "Q3'25",
+          "rev": 0.7,
+          "res": "inline"
+        },
+        {
+          "label": "Q4'25",
+          "rev": 0.8,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'26",
+          "rev": 0.9,
+          "res": "beat"
+        },
+        {
+          "label": "Q2'26",
+          "rev": 1.0,
+          "res": "beat"
+        },
+        {
+          "label": "Q3'26",
+          "rev": 1.2,
+          "res": "beat"
+        },
+        {
+          "label": "Q4'26",
+          "rev": 1.3,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'27",
+          "rev": 1.5,
+          "res": "beat"
+        }
+      ],
+      "backlog": "Growing high-speed optical-device orders",
+      "cash": "Strong; high-margin model",
+      "guide": "Analysts stay positive on optical-component demand into 2026 on continued global data-center buildout.  ·  Latest: Q1 2026: ¥1.33B, +~58% YoY, beat (net profit ¥1.35-1.44B est., +94.6-107.5%)",
+      "buy": 196.57,
+      "tp": 230.39,
+      "latest_quarter": "Q1 2026: ¥1.33B, +~58% YoY, beat (net profit ¥1.35-1.44B est., +94.6-107.5%)"
+    },
+    {
+      "ticker": "002594.SZ",
+      "name": "BYD",
+      "sector": "Autos / NEV + batteries (Consumer Discretionary)",
+      "cus": 3.9,
+      "cap_promote": false,
+      "sliceA": null,
+      "sliceB": 11,
+      "sliceC": 8,
+      "bull": {
+        "1m": 18,
+        "3m": 28,
+        "13y": 45
+      },
+      "base": {
+        "1m": 2,
+        "3m": 5,
+        "13y": 40
+      },
+      "driver": "May NEVs broke an 8-month decline (~383k wholesale) on record overseas volume (160k, +80%), shifting mix toward higher-margin exports.",
+      "risk": "Brutal domestic NEV price war (Xiaomi/Geely) plus anti-involution scrutiny crushed Q1 profit -55% and keeps per-unit margins under pressure.",
+      "currency": "CNY",
+      "rev_unit": "¥bn",
+      "last": 93.47,
+      "chg_3m": -6.22,
+      "spark": [
+        99.67,
+        103.03,
+        105.3,
+        99.01,
+        101.67,
+        103.78,
+        99.46,
+        102.98,
+        100.02,
+        96.3,
+        93.75,
+        96.18,
+        93.01,
+        93.47
+      ],
+      "spark_from": "09-Mar-26",
+      "spark_to": "17-Jul-26",
+      "spark_tf": "3M",
+      "earnings": [
+        {
+          "label": "Q2'25",
+          "rev": 138,
+          "res": "inline"
+        },
+        {
+          "label": "Q3'25",
+          "rev": 142,
+          "res": "inline"
+        },
+        {
+          "label": "Q4'25",
+          "rev": 147,
+          "res": "miss"
+        },
+        {
+          "label": "Q1'26",
+          "rev": 151,
+          "res": "inline"
+        },
+        {
+          "label": "Q2'26",
+          "rev": 156,
+          "res": "inline"
+        },
+        {
+          "label": "Q3'26",
+          "rev": 160,
+          "res": "miss"
+        },
+        {
+          "label": "Q4'26",
+          "rev": 165,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'27",
+          "rev": 170,
+          "res": "beat"
+        }
+      ],
+      "backlog": "n/a (volume/order-driven)",
+      "cash": "Strong balance sheet; large operating cash base",
+      "guide": "Analysts expect overseas growth to cushion weak domestic unit economics; profitability recovery hinges on price-war de-escalation.  ·  Latest: Q1 2026: ¥150.2B, -12% YoY, miss (net profit -55% to ¥4.08B)",
+      "buy": 86.93,
+      "tp": 98.14,
+      "latest_quarter": "Q1 2026: ¥150.2B, -12% YoY, miss (net profit -55% to ¥4.08B)"
+    }
+  ]
+}

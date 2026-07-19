@@ -1,0 +1,946 @@
+{
+  "meta": {
+    "title": "Thailand SET Top-10 Weight Ranking",
+    "generated": "2026-07-18 02:46 UTC",
+    "reference_date": "2026-06-21",
+    "universe": "SET + mai; ex warrants/DR/REIT; ex Cash-Balance/Trading-Alert names",
+    "methodology": "CUS = 0.40 market-cap rank + 0.30 THB-turnover rank + 0.30 attention rank. FX 32.5 THB/USD. Bull % = P(>10% 1m / >20% 3m / >75% 1-3yr), local THB. Max 3 per SET sector.",
+    "sector_cap": "max 3 per SET sector",
+    "note": "Buy = ~7% below last; take-profit = last x (1 + 3-month base case). Earnings (8Q revenue), backlog and cash are illustrative seed values anchored to the latest ranking report — the weekly task replaces them with web-researched figures.",
+    "prices_asof": "17 Jul 2026 (research 2026-06-21)",
+    "market_note": "No roster change vs June 4: same 10 names, with GULF holding the #1 CUS slot after crossing THB 1tn market cap on a THB 140bn ($4.3bn) AI data-center plan plus FTSE inclusion. Tone is cautious-defensive — SET slipped ~1.3% to 1,572.50 on thin THB 69bn turnover amid Delta-led selling, a ~THB 5bn FTSE-revision outflow, Mideast/Hormuz risk and a hawkish Fed; dividend-rich banks and lower-oil importers cushion the downside.",
+    "research_asof": "2026-06-21 (live web research)"
+  },
+  "names": [
+    {
+      "ticker": "GULF",
+      "name": "Gulf Development",
+      "sector": "Utilities (Independent Power & Renewable Electricity Producers)",
+      "cus": 12.0,
+      "cap_promote": false,
+      "sliceA": 4,
+      "sliceB": 6,
+      "sliceC": 2,
+      "bull": {
+        "1m": 18,
+        "3m": 30,
+        "13y": 55
+      },
+      "base": {
+        "1m": 2,
+        "3m": 7,
+        "13y": 40
+      },
+      "driver": "Billionaire Sarath Ratanavadi's THB 140bn ($4.3bn) plan to 10x data-center capacity to ~2,000MW (Microsoft/Google/Singtel deals) plus FTSE inclusion is pulling in foreign capital.",
+      "risk": "Stretched valuation after the trillion-baht run leaves the stock vulnerable to AI-capex sentiment swings and any delay in data-center ramp or financing.",
+      "currency": "THB",
+      "rev_unit": "฿bn",
+      "last": 67.5,
+      "chg_3m": 20.0,
+      "spark": [
+        56.25,
+        56.75,
+        58.25,
+        59.25,
+        59.5,
+        57.75,
+        56,
+        57.5,
+        60,
+        59.75,
+        60.75,
+        62,
+        67,
+        67.5
+      ],
+      "spark_from": "09-Mar-26",
+      "spark_to": "17-Jul-26",
+      "spark_tf": "3M",
+      "buy": 62.78,
+      "tp": 72.23,
+      "earnings": [
+        {
+          "label": "Q2'25",
+          "rev": 22.7,
+          "res": "inline"
+        },
+        {
+          "label": "Q3'25",
+          "rev": 23.9,
+          "res": "inline"
+        },
+        {
+          "label": "Q4'25",
+          "rev": 25.1,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'26",
+          "rev": 26.3,
+          "res": "beat"
+        },
+        {
+          "label": "Q2'26",
+          "rev": 27.6,
+          "res": "beat"
+        },
+        {
+          "label": "Q3'26",
+          "rev": 29.0,
+          "res": "beat"
+        },
+        {
+          "label": "Q4'26",
+          "rev": 30.5,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'27",
+          "rev": 32,
+          "res": "beat"
+        }
+      ],
+      "backlog": "n/a (multi-year power + 300-500MW data-center pipeline)",
+      "cash": "Low yield (~1-2%); heavy capex, leverage rising on DC build-out; profit boosted by AIS stake",
+      "guide": "Management guides to double-digit 2026 revenue growth with limited Mideast impact; brokers expect continued upside into H2 on data-center and FTSE flows.  ·  Latest: Q1 2026: net profit ฿9,117m, +39% YoY; core profit ฿9,326m (+43%, record); revenue ฿39,041m (+21%); beat.",
+      "latest_quarter": "Q1 2026: net profit ฿9,117m, +39% YoY; core profit ฿9,326m (+43%, record); revenue ฿39,041m (+21%); beat."
+    },
+    {
+      "ticker": "ADVANC",
+      "name": "Advanced Info Service",
+      "sector": "Communication Services (Wireless Telecom)",
+      "cus": 11.6,
+      "cap_promote": false,
+      "sliceA": 2,
+      "sliceB": 5,
+      "sliceC": 7,
+      "bull": {
+        "1m": 10,
+        "3m": 17,
+        "13y": 30
+      },
+      "base": {
+        "1m": 1,
+        "3m": 3,
+        "13y": 18
+      },
+      "driver": "5G subscribers rose to 18.5m and mobile service revenue grew 7.6% YoY, with broadband and enterprise/digital adding a defensive, dividend-backed growth leg.",
+      "risk": "Heavy ฿30-35bn capex and a maturing, two-player mobile market cap pricing power and free-cash upside.",
+      "currency": "THB",
+      "rev_unit": "฿bn",
+      "last": 379,
+      "chg_3m": 4.41,
+      "spark": [
+        363,
+        380,
+        367,
+        365,
+        363,
+        353,
+        349,
+        340,
+        350,
+        365,
+        355,
+        353,
+        361,
+        379
+      ],
+      "spark_from": "09-Mar-26",
+      "spark_to": "17-Jul-26",
+      "spark_tf": "3M",
+      "buy": 352.47,
+      "tp": 390.37,
+      "earnings": [
+        {
+          "label": "Q2'25",
+          "rev": 45.5,
+          "res": "inline"
+        },
+        {
+          "label": "Q3'25",
+          "rev": 46.9,
+          "res": "inline"
+        },
+        {
+          "label": "Q4'25",
+          "rev": 48.3,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'26",
+          "rev": 49.8,
+          "res": "beat"
+        },
+        {
+          "label": "Q2'26",
+          "rev": 51.2,
+          "res": "beat"
+        },
+        {
+          "label": "Q3'26",
+          "rev": 52.8,
+          "res": "beat"
+        },
+        {
+          "label": "Q4'26",
+          "rev": 54.4,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'27",
+          "rev": 56,
+          "res": "beat"
+        }
+      ],
+      "backlog": "n/a",
+      "cash": "Solid ~3-4% yield, strong recurring cash flow, defensive balance sheet",
+      "guide": "Management reaffirmed full-year guidance (in line) with ฿30-35bn capex to extend 5G (>95% coverage) and fixed broadband.  ·  Latest: Q1 2026: net profit ฿13.49bn, +28% YoY; revenue ฿58.19bn (+3.4%); EBITDA +7.1%; in line/beat.",
+      "latest_quarter": "Q1 2026: net profit ฿13.49bn, +28% YoY; revenue ฿58.19bn (+3.4%); EBITDA +7.1%; in line/beat."
+    },
+    {
+      "ticker": "AOT",
+      "name": "Airports of Thailand",
+      "sector": "Industrials (Transportation Infrastructure / Airport Services)",
+      "cus": 11.0,
+      "cap_promote": false,
+      "sliceA": 5,
+      "sliceB": 7,
+      "sliceC": 3,
+      "bull": {
+        "1m": 11,
+        "3m": 18,
+        "13y": 30
+      },
+      "base": {
+        "1m": 1,
+        "3m": 3,
+        "13y": 15
+      },
+      "driver": "Tourism recovery continues (FY25 ~126m pax, +11%) and the new international PSC hike to ฿1,120 from mid-June lifts per-passenger revenue.",
+      "risk": "Mideast conflict and soft Chinese/regional demand forced a FY26 pax-target cut to 126m (from 135m), capping the recovery.",
+      "currency": "THB",
+      "rev_unit": "฿bn",
+      "last": 63.75,
+      "chg_3m": 30.1,
+      "spark": [
+        49,
+        48.75,
+        52.25,
+        53,
+        54,
+        54.75,
+        54.5,
+        51.25,
+        51.25,
+        53,
+        52.75,
+        55.25,
+        58,
+        63.75
+      ],
+      "spark_from": "09-Mar-26",
+      "spark_to": "17-Jul-26",
+      "spark_tf": "3M",
+      "buy": 59.29,
+      "tp": 65.66,
+      "earnings": [
+        {
+          "label": "Q2'25",
+          "rev": 12.3,
+          "res": "inline"
+        },
+        {
+          "label": "Q3'25",
+          "rev": 12.9,
+          "res": "inline"
+        },
+        {
+          "label": "Q4'25",
+          "rev": 13.6,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'26",
+          "rev": 14.2,
+          "res": "beat"
+        },
+        {
+          "label": "Q2'26",
+          "rev": 14.9,
+          "res": "beat"
+        },
+        {
+          "label": "Q3'26",
+          "rev": 15.7,
+          "res": "beat"
+        },
+        {
+          "label": "Q4'26",
+          "rev": 16.5,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'27",
+          "rev": 17.3,
+          "res": "beat"
+        }
+      ],
+      "backlog": "n/a",
+      "cash": "Low yield (~1-2%); capex-heavy on terminal expansion; strong franchise cash flows",
+      "guide": "AOT trimmed FY26 passenger guidance to ~126m but analysts still frame it as a top tourism-recovery infrastructure play on the PSC uplift.  ·  Latest: 1H FY2026 (Oct-Mar): traffic growth ~4-7% across major airports (Suvarnabhumi +4.4%, Don Mueang +7.5%); earnings recovering but pressured by demand softness.",
+      "latest_quarter": "1H FY2026 (Oct-Mar): traffic growth ~4-7% across major airports (Suvarnabhumi +4.4%, Don Mueang +7.5%); earnings recovering but pressured by demand softness."
+    },
+    {
+      "ticker": "CPALL",
+      "name": "CP All",
+      "sector": "Consumer Staples (Food & Staples Retailing)",
+      "cus": 10.3,
+      "cap_promote": false,
+      "sliceA": 9,
+      "sliceB": 3,
+      "sliceC": 4,
+      "bull": {
+        "1m": 12,
+        "3m": 20,
+        "13y": 33
+      },
+      "base": {
+        "1m": 2,
+        "3m": 4,
+        "13y": 20
+      },
+      "driver": "7-Eleven same-store sales and traffic rose on recovering Chinese tourism and post-election domestic mobility, and a ฿7.5bn buyback signals confidence.",
+      "risk": "Soft Thai consumer spending, high household debt and elevated group leverage weigh on the multiple.",
+      "currency": "THB",
+      "rev_unit": "฿bn",
+      "last": 47,
+      "chg_3m": 1.08,
+      "spark": [
+        46.5,
+        45.5,
+        44,
+        45.5,
+        47.75,
+        47.5,
+        44.75,
+        43.5,
+        43.75,
+        46.25,
+        46.5,
+        47.25,
+        45.75,
+        47
+      ],
+      "spark_from": "09-Mar-26",
+      "spark_to": "17-Jul-26",
+      "spark_tf": "3M",
+      "buy": 43.71,
+      "tp": 48.88,
+      "earnings": [
+        {
+          "label": "Q2'25",
+          "rev": 175,
+          "res": "inline"
+        },
+        {
+          "label": "Q3'25",
+          "rev": 182,
+          "res": "inline"
+        },
+        {
+          "label": "Q4'25",
+          "rev": 189,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'26",
+          "rev": 197,
+          "res": "beat"
+        },
+        {
+          "label": "Q2'26",
+          "rev": 204,
+          "res": "beat"
+        },
+        {
+          "label": "Q3'26",
+          "rev": 213,
+          "res": "beat"
+        },
+        {
+          "label": "Q4'26",
+          "rev": 221,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'27",
+          "rev": 230,
+          "res": "beat"
+        }
+      ],
+      "backlog": "n/a",
+      "cash": "~2-3% yield plus ฿7.5bn buyback; deleveraging gradually",
+      "guide": "Management guides to continued store expansion (16,084 stores) and margin gains; brokers positive on consumption/tourism leverage.  ·  Latest: Q1 2026: net profit ฿9,118m, +20.2% YoY; total revenue ฿267,672m (+5.8%); CVS sales +7.0%; beat.",
+      "latest_quarter": "Q1 2026: net profit ฿9,118m, +20.2% YoY; total revenue ฿267,672m (+5.8%); CVS sales +7.0%; beat."
+    },
+    {
+      "ticker": "KTB",
+      "name": "Krung Thai Bank",
+      "sector": "Financials (Diversified Banks)",
+      "cus": 9.0,
+      "cap_promote": false,
+      "sliceA": 7,
+      "sliceB": 8,
+      "sliceC": 6,
+      "bull": {
+        "1m": 10,
+        "3m": 16,
+        "13y": 28
+      },
+      "base": {
+        "1m": 1,
+        "3m": 3,
+        "13y": 18
+      },
+      "driver": "Best-in-peer NIM expansion and ~28% non-interest income growth underpin a ~7.7% dividend yield, drawing broker upgrades (DBSV Buy, TP ฿38.50).",
+      "risk": "BoT policy rate at 1% and falling sector NIM/loan growth (-1.1% YoY) cap earnings; asset-quality risk if GDP (1.5%) disappoints.",
+      "currency": "THB",
+      "rev_unit": "฿bn",
+      "last": 41.5,
+      "chg_3m": 21.17,
+      "spark": [
+        34.25,
+        34.5,
+        35,
+        35.25,
+        33,
+        31.25,
+        32.25,
+        33,
+        32.75,
+        34.25,
+        34.75,
+        34.75,
+        35.25,
+        41.5
+      ],
+      "spark_from": "09-Mar-26",
+      "spark_to": "17-Jul-26",
+      "spark_tf": "3M",
+      "buy": 38.59,
+      "tp": 42.75,
+      "earnings": [
+        {
+          "label": "Q2'25",
+          "rev": 24.4,
+          "res": "inline"
+        },
+        {
+          "label": "Q3'25",
+          "rev": 24.9,
+          "res": "inline"
+        },
+        {
+          "label": "Q4'25",
+          "rev": 25.4,
+          "res": "miss"
+        },
+        {
+          "label": "Q1'26",
+          "rev": 25.9,
+          "res": "inline"
+        },
+        {
+          "label": "Q2'26",
+          "rev": 26.4,
+          "res": "beat"
+        },
+        {
+          "label": "Q3'26",
+          "rev": 26.9,
+          "res": "beat"
+        },
+        {
+          "label": "Q4'26",
+          "rev": 27.5,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'27",
+          "rev": 28,
+          "res": "beat"
+        }
+      ],
+      "backlog": "n/a",
+      "cash": "High ~7.7% dividend yield; ~40% payout policy; strong capital",
+      "guide": "Brokers (DBSV ฿38.50, Krungsri ฿38) rate Buy, expecting a sustained ~7% yield and long-term dividend growth.  ·  Latest: Q1 2026: net profit roughly flat-to-modestly-up YoY (sector profit growth <1%); resilient vs peers on NIM and fee income; in line.",
+      "latest_quarter": "Q1 2026: net profit roughly flat-to-modestly-up YoY (sector profit growth <1%); resilient vs peers on NIM and fee income; in line."
+    },
+    {
+      "ticker": "KBANK",
+      "name": "Kasikornbank",
+      "sector": "Financials (Diversified Banks)",
+      "cus": 5.7,
+      "cap_promote": false,
+      "sliceA": 13,
+      "sliceB": 2,
+      "sliceC": 15,
+      "bull": {
+        "1m": 10,
+        "3m": 16,
+        "13y": 27
+      },
+      "base": {
+        "1m": 1,
+        "3m": 3,
+        "13y": 16
+      },
+      "driver": "Net profit grew 6.35% YoY on a 28% jump in non-interest income, and a sector-leading ~7.1% dividend yield (฿32/sh cumulative) is fueling a banking-stock rally.",
+      "risk": "Lower policy rate compresses NIM (~2.91%, -45bps) and weak loan demand limits top-line growth amid a soft economy.",
+      "currency": "THB",
+      "rev_unit": "฿bn",
+      "last": 234,
+      "chg_3m": 23.81,
+      "spark": [
+        189,
+        189.5,
+        191,
+        190.5,
+        192,
+        189,
+        190,
+        194,
+        195,
+        196.5,
+        197,
+        201,
+        201,
+        234
+      ],
+      "spark_from": "09-Mar-26",
+      "spark_to": "17-Jul-26",
+      "spark_tf": "3M",
+      "buy": 217.62,
+      "tp": 241.02,
+      "earnings": [
+        {
+          "label": "Q2'25",
+          "rev": 34.8,
+          "res": "inline"
+        },
+        {
+          "label": "Q3'25",
+          "rev": 35.5,
+          "res": "inline"
+        },
+        {
+          "label": "Q4'25",
+          "rev": 36.2,
+          "res": "inline"
+        },
+        {
+          "label": "Q1'26",
+          "rev": 37.0,
+          "res": "inline"
+        },
+        {
+          "label": "Q2'26",
+          "rev": 37.7,
+          "res": "beat"
+        },
+        {
+          "label": "Q3'26",
+          "rev": 38.4,
+          "res": "beat"
+        },
+        {
+          "label": "Q4'26",
+          "rev": 39.2,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'27",
+          "rev": 40,
+          "res": "beat"
+        }
+      ],
+      "backlog": "n/a",
+      "cash": "High ~7.1% dividend yield; strong CAR and provisioning buffers",
+      "guide": "Management/brokers point to robust dividend payouts and fee-income momentum offsetting NIM pressure; constructive on payout-driven re-rating.  ·  Latest: Q1 2026: net profit ฿14,667m, +6.35% YoY; non-interest income ฿17,564m (+28.4%); broadly in line.",
+      "latest_quarter": "Q1 2026: net profit ฿14,667m, +6.35% YoY; non-interest income ฿17,564m (+28.4%); broadly in line."
+    },
+    {
+      "ticker": "BBL",
+      "name": "Bangkok Bank",
+      "sector": "Financials (Diversified Banks)",
+      "cus": 5.1,
+      "cap_promote": false,
+      "sliceA": 10,
+      "sliceB": 13,
+      "sliceC": 10,
+      "bull": {
+        "1m": 9,
+        "3m": 15,
+        "13y": 26
+      },
+      "base": {
+        "1m": 1,
+        "3m": 2,
+        "13y": 16
+      },
+      "driver": "Deep-value, well-capitalized lender with a ~5.9% yield and the highest corporate-loan gearing to any Thai capex/data-center investment upcycle.",
+      "risk": "Q1 net profit fell ~12.9% YoY on lower operating income, the weakest of the big banks, as NIM and loan growth contract.",
+      "currency": "THB",
+      "rev_unit": "฿bn",
+      "last": 202,
+      "chg_3m": 20.6,
+      "spark": [
+        167.5,
+        166,
+        167.5,
+        165.5,
+        166,
+        164.5,
+        158.5,
+        162.5,
+        163,
+        165,
+        168.5,
+        173,
+        174.5,
+        202
+      ],
+      "spark_from": "09-Mar-26",
+      "spark_to": "17-Jul-26",
+      "spark_tf": "3M",
+      "buy": 187.86,
+      "tp": 206.04,
+      "earnings": [
+        {
+          "label": "Q2'25",
+          "rev": 29.6,
+          "res": "inline"
+        },
+        {
+          "label": "Q3'25",
+          "rev": 30.2,
+          "res": "inline"
+        },
+        {
+          "label": "Q4'25",
+          "rev": 30.8,
+          "res": "inline"
+        },
+        {
+          "label": "Q1'26",
+          "rev": 31.4,
+          "res": "inline"
+        },
+        {
+          "label": "Q2'26",
+          "rev": 32.0,
+          "res": "beat"
+        },
+        {
+          "label": "Q3'26",
+          "rev": 32.7,
+          "res": "beat"
+        },
+        {
+          "label": "Q4'26",
+          "rev": 33.3,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'27",
+          "rev": 34,
+          "res": "beat"
+        }
+      ],
+      "backlog": "n/a",
+      "cash": "~5.9% dividend yield; lowest P/BV among majors, very strong capital",
+      "guide": "Analysts keep a value/dividend stance; recovery hinges on loan-growth stabilization and non-interest income rebuilding.  ·  Latest: Q1 2026: net profit ฿10,994m, -12.9% YoY; lower operating income; miss.",
+      "latest_quarter": "Q1 2026: net profit ฿10,994m, -12.9% YoY; lower operating income; miss."
+    },
+    {
+      "ticker": "CPN",
+      "name": "Central Pattana",
+      "sector": "Real Estate (Retail REITs / Real Estate Management & Development)",
+      "cus": 4.7,
+      "cap_promote": false,
+      "sliceA": 11,
+      "sliceB": 11,
+      "sliceC": 12,
+      "bull": {
+        "1m": 11,
+        "3m": 18,
+        "13y": 32
+      },
+      "base": {
+        "1m": 2,
+        "3m": 4,
+        "13y": 20
+      },
+      "driver": "Record-high rental revenue and 62% rental gross margin on rising mall traffic, plus a ฿110bn 2026-2030 'Future-Led Ecosystem' expansion pipeline.",
+      "risk": "Large multi-year capex and reliance on Thai consumption/tourism expose returns to a domestic-demand slowdown.",
+      "currency": "THB",
+      "rev_unit": "฿bn",
+      "last": 68.5,
+      "chg_3m": 6.61,
+      "spark": [
+        64.25,
+        63.25,
+        61.25,
+        62.25,
+        63.5,
+        64.75,
+        62.25,
+        62,
+        64.75,
+        64.75,
+        66.5,
+        64.5,
+        64.75,
+        68.5
+      ],
+      "spark_from": "09-Mar-26",
+      "spark_to": "17-Jul-26",
+      "spark_tf": "3M",
+      "buy": 63.71,
+      "tp": 71.24,
+      "earnings": [
+        {
+          "label": "Q2'25",
+          "rev": 9.8,
+          "res": "inline"
+        },
+        {
+          "label": "Q3'25",
+          "rev": 10.0,
+          "res": "inline"
+        },
+        {
+          "label": "Q4'25",
+          "rev": 10.4,
+          "res": "inline"
+        },
+        {
+          "label": "Q1'26",
+          "rev": 10.7,
+          "res": "beat"
+        },
+        {
+          "label": "Q2'26",
+          "rev": 11.0,
+          "res": "beat"
+        },
+        {
+          "label": "Q3'26",
+          "rev": 11.3,
+          "res": "beat"
+        },
+        {
+          "label": "Q4'26",
+          "rev": 11.7,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'27",
+          "rev": 12,
+          "res": "beat"
+        }
+      ],
+      "backlog": "n/a (฿110bn 2026-2030 development plan)",
+      "cash": "~2-3% yield; mixed-use cash flows fund expansion; moderate leverage",
+      "guide": "Management guides to continued retail-led growth and new mall openings (Central Chanthaburi); analysts constructive on tourism recovery.  ·  Latest: Q1 2026: net profit ฿4,971m, +18% YoY; total revenue ฿13,352m; record margins; beat.",
+      "latest_quarter": "Q1 2026: net profit ฿4,971m, +18% YoY; total revenue ฿13,352m; record margins; beat."
+    },
+    {
+      "ticker": "BDMS",
+      "name": "Bangkok Dusit Medical Services",
+      "sector": "Health Care (Health Care Providers & Services / Hospitals)",
+      "cus": 3.4,
+      "cap_promote": false,
+      "sliceA": 15,
+      "sliceB": 14,
+      "sliceC": 8,
+      "bull": {
+        "1m": 9,
+        "3m": 15,
+        "13y": 28
+      },
+      "base": {
+        "1m": 1,
+        "3m": 3,
+        "13y": 18
+      },
+      "driver": "Largest Thai private hospital network (60 hospitals) with stable domestic demand and ~10% underlying foreign-patient growth ex-conflict markets.",
+      "risk": "Lower Cambodian and Middle East patient volumes from regional conflict dragged revenue flat and profit -7% YoY, pressuring margins.",
+      "currency": "THB",
+      "rev_unit": "฿bn",
+      "last": 19.7,
+      "chg_3m": 4.79,
+      "spark": [
+        18.8,
+        18.9,
+        18.4,
+        19,
+        18.6,
+        18.7,
+        18.5,
+        18.3,
+        18.4,
+        18.3,
+        18.1,
+        18.2,
+        18.4,
+        19.7
+      ],
+      "spark_from": "09-Mar-26",
+      "spark_to": "17-Jul-26",
+      "spark_tf": "3M",
+      "buy": 18.32,
+      "tp": 20.29,
+      "earnings": [
+        {
+          "label": "Q2'25",
+          "rev": 21.1,
+          "res": "inline"
+        },
+        {
+          "label": "Q3'25",
+          "rev": 21.8,
+          "res": "inline"
+        },
+        {
+          "label": "Q4'25",
+          "rev": 22.4,
+          "res": "inline"
+        },
+        {
+          "label": "Q1'26",
+          "rev": 23.1,
+          "res": "inline"
+        },
+        {
+          "label": "Q2'26",
+          "rev": 23.8,
+          "res": "miss"
+        },
+        {
+          "label": "Q3'26",
+          "rev": 24.5,
+          "res": "beat"
+        },
+        {
+          "label": "Q4'26",
+          "rev": 25.2,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'27",
+          "rev": 26,
+          "res": "beat"
+        }
+      ],
+      "backlog": "n/a",
+      "cash": "~2% yield; defensive, low-leverage healthcare balance sheet",
+      "guide": "Brokers (e.g. DBSV) flag soft near-term earnings on weak top line/margins but see core medical demand intact; defensive hold.  ·  Latest: Q1 2026: net profit ฿4,058m, -7% YoY; revenue ฿28,554m (flat); miss.",
+      "latest_quarter": "Q1 2026: net profit ฿4,058m, -7% YoY; revenue ฿28,554m (flat); miss."
+    },
+    {
+      "ticker": "MINT",
+      "name": "Minor International",
+      "sector": "Consumer Discretionary (Hotels, Restaurants & Leisure)",
+      "cus": 2.4,
+      "cap_promote": false,
+      "sliceA": null,
+      "sliceB": 15,
+      "sliceC": 9,
+      "bull": {
+        "1m": 12,
+        "3m": 20,
+        "13y": 35
+      },
+      "base": {
+        "1m": 2,
+        "3m": 5,
+        "13y": 22
+      },
+      "driver": "Strong RevPAR across Europe (~74% of revenue), Thailand and Maldives drove core profit +189% YoY, with robust Q2 European advance bookings.",
+      "risk": "High seasonal Q1 losses, FX and European/macro sensitivity plus elevated leverage make earnings volatile.",
+      "currency": "THB",
+      "rev_unit": "฿bn",
+      "last": 23.6,
+      "chg_3m": 6.79,
+      "spark": [
+        22.1,
+        21.5,
+        21.5,
+        21.8,
+        22.5,
+        22.5,
+        21.6,
+        20.7,
+        21.2,
+        21.7,
+        21.9,
+        22.5,
+        22.9,
+        23.6
+      ],
+      "spark_from": "09-Mar-26",
+      "spark_to": "17-Jul-26",
+      "spark_tf": "3M",
+      "buy": 21.95,
+      "tp": 24.78,
+      "earnings": [
+        {
+          "label": "Q2'25",
+          "rev": 30.4,
+          "res": "inline"
+        },
+        {
+          "label": "Q3'25",
+          "rev": 31.6,
+          "res": "inline"
+        },
+        {
+          "label": "Q4'25",
+          "rev": 32.9,
+          "res": "inline"
+        },
+        {
+          "label": "Q1'26",
+          "rev": 34.2,
+          "res": "miss"
+        },
+        {
+          "label": "Q2'26",
+          "rev": 35.6,
+          "res": "beat"
+        },
+        {
+          "label": "Q3'26",
+          "rev": 37.0,
+          "res": "beat"
+        },
+        {
+          "label": "Q4'26",
+          "rev": 38.5,
+          "res": "beat"
+        },
+        {
+          "label": "Q1'27",
+          "rev": 40,
+          "res": "beat"
+        }
+      ],
+      "backlog": "n/a",
+      "cash": "Low ~1-2% yield; deleveraging via REIT monetization; seasonal Q1 cash drag",
+      "guide": "Management sees continued momentum on robust European advance bookings and is advancing REIT/asset-monetization plans to cut debt.  ·  Latest: Q1 2026: core net profit ฿145m, +189% YoY; reported net profit ฿649m (+56%); core revenue ฿38,488m (+5%); beat.",
+      "latest_quarter": "Q1 2026: core net profit ฿145m, +189% YoY; reported net profit ฿649m (+56%); core revenue ฿38,488m (+5%); beat."
+    }
+  ]
+}

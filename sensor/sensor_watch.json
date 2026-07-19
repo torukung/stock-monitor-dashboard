@@ -1,0 +1,12 @@
+{
+  "note": "Tier-B information flags — maintain by hand (or future scrapers). type: earnings_accel(+2.0) | broker_note(+1.5) | insider_buy(+1.5) | insider_sell(-2.0) | corp_action(+1.0) | theme(+1.0). date = when the info became public (ISO). Old flags expire automatically (see WATCH_DAYS in sensor_scan.py).",
+  "flags": {
+    "EPG":  [{"type": "broker_note", "date": "2026-07-15", "note": "Kingsford Buy TP 7.10 (RYT9 Analyst Picks)"},
+             {"type": "theme", "date": "2026-07-03", "note": "data-center/TSMC insulation"}],
+    "MGC":  [{"type": "broker_note", "date": "2026-07-13", "note": "Yuanta TP 20.20"},
+             {"type": "theme", "date": "2026-07-15", "note": "EV / XPENG partnership"}],
+    "STPI": [{"type": "broker_note", "date": "2026-07-17", "note": "Yuanta bullish, Q2 growth + DC land"},
+             {"type": "theme", "date": "2026-07-17", "note": "data-center land monetization"}],
+    "CAZ":  [{"type": "insider_sell", "date": "2026-06-16", "note": "director sold on breakout day"}]
+  }
+}
