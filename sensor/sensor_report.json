@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "generated": "2026-07-20 07:03 UTC",
+    "alert_threshold": 4.0,
+    "errors": []
+  },
+  "results": [
+    {
+      "ticker": "MGC",
+      "symbol": "MGC.BK",
+      "last": 9.65,
+      "date": "2026-07-17",
+      "score": 7.0,
+      "tape": 4.5,
+      "info": 2.5,
+      "alert": true,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A1_burst": 1.0,
+        "A2_crescendo": 1.5,
+        "A4_drift": 1.5,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "burst 12.0x on 2026-07-13",
+        "5d vol 2.98x avg20, rising",
+        "20d drift +45%, -2% off high",
+        "OBV rising",
+        "broker_note Yuanta TP 20.20 (2026-07-13)",
+        "theme EV / XPENG partnership (2026-07-15)"
+      ]
+    },
+    {
+      "ticker": "SALEE",
+      "symbol": "SALEE.BK",
+      "last": 0.68,
+      "date": "2026-07-17",
+      "score": 5.5,
+      "tape": 5.5,
+      "info": 0.0,
+      "alert": true,
+      "private_channel_flag": true,
+      "ignition": "+13.3% on 7.7x vol TODAY",
+      "components": {
+        "A1_leak": 2.0,
+        "A2_crescendo": 1.5,
+        "A4_drift": 1.5,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "leak 3.7x on 2026-07-09 (price pinned)",
+        "5d vol 2.15x avg20, rising",
+        "20d drift +24%, 0% off high",
+        "OBV rising"
+      ]
+    },
+    {
+      "ticker": "STPI",
+      "symbol": "STPI.BK",
+      "last": 6.3,
+      "date": "2026-07-17",
+      "score": 5.5,
+      "tape": 3.0,
+      "info": 2.5,
+      "alert": true,
+      "private_channel_flag": false,
+      "ignition": "+7.7% on 6.2x vol TODAY",
+      "components": {
+        "A1_burst": 1.0,
+        "A2_crescendo": 1.5,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "burst 8.5x on 2026-07-16",
+        "5d vol 2.49x avg20, rising",
+        "OBV rising",
+        "broker_note Yuanta bullish, Q2 growth + DC land (2026-07-17)",
+        "theme data-center land monetization (2026-07-17)"
+      ]
+    },
+    {
+      "ticker": "EPG",
+      "symbol": "EPG.BK",
+      "last": 6.5,
+      "date": "2026-07-17",
+      "score": 5.5,
+      "tape": 3.0,
+      "info": 2.5,
+      "alert": true,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A1_burst": 1.0,
+        "A2_crescendo": 1.5,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "burst 3.3x on 2026-07-16",
+        "5d vol 1.53x avg20, rising",
+        "OBV rising",
+        "broker_note Kingsford Buy TP 7.10 (RYT9 Analyst Picks) (2026-07-15)",
+        "theme data-center/TSMC insulation (2026-07-03)"
+      ]
+    },
+    {
+      "ticker": "S",
+      "symbol": "S.BK",
+      "last": 0.57,
+      "date": "2026-07-17",
+      "score": 5.5,
+      "tape": 5.5,
+      "info": 0.0,
+      "alert": true,
+      "private_channel_flag": true,
+      "ignition": null,
+      "components": {
+        "A1_leak": 2.0,
+        "A2_crescendo": 1.5,
+        "A4_drift": 1.5,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "leak 5.4x on 2026-06-23 (price pinned)",
+        "5d vol 3.05x avg20, rising",
+        "20d drift +16%, -8% off high",
+        "OBV rising"
+      ]
+    },
+    {
+      "ticker": "LTS",
+      "symbol": "LTS.BK",
+      "last": 2.84,
+      "date": "2026-07-17",
+      "score": 5.0,
+      "tape": 5.0,
+      "info": 0.0,
+      "alert": true,
+      "private_channel_flag": true,
+      "ignition": null,
+      "components": {
+        "A1_leak": 2.0,
+        "A2_crescendo": 1.5,
+        "A3_squeeze": 1.0,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "leak 3.9x on 2026-07-17 (price pinned)",
+        "5d vol 2.94x avg20, rising",
+        "ATR 4.6% <= 25th pct (4.9%)",
+        "OBV rising"
+      ]
+    },
+    {
+      "ticker": "TPIPL",
+      "symbol": "TPIPL.BK",
+      "last": 0.9,
+      "date": "2026-07-17",
+      "score": 4.0,
+      "tape": 4.0,
+      "info": 0.0,
+      "alert": true,
+      "private_channel_flag": true,
+      "ignition": "+11.1% on 8.0x vol TODAY",
+      "components": {
+        "A1_leak": 2.0,
+        "A2_crescendo": 1.5,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "leak 3.1x on 2026-07-08 (price pinned)",
+        "5d vol 2.14x avg20, rising",
+        "OBV rising"
+      ]
+    },
+    {
+      "ticker": "TPIPP",
+      "symbol": "TPIPP.BK",
+      "last": 1.82,
+      "date": "2026-07-17",
+      "score": 4.0,
+      "tape": 4.0,
+      "info": 0.0,
+      "alert": true,
+      "private_channel_flag": true,
+      "ignition": null,
+      "components": {
+        "A1_leak": 2.0,
+        "A2_crescendo": 1.5,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "leak 5.6x on 2026-07-17 (price pinned)",
+        "5d vol 2.19x avg20, rising",
+        "OBV rising"
+      ]
+    },
+    {
+      "ticker": "CAZ",
+      "symbol": "CAZ.BK",
+      "last": 2.42,
+      "date": "2026-07-17",
+      "score": 3.0,
+      "tape": 3.0,
+      "info": 0.0,
+      "alert": false,
+      "private_channel_flag": true,
+      "ignition": null,
+      "components": {
+        "A1_burst": 1.0,
+        "A4_drift": 1.5,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "burst 40.6x on 2026-06-25",
+        "20d drift +47%, -14% off high",
+        "OBV rising"
+      ]
+    },
+    {
+      "ticker": "PLAT",
+      "symbol": "PLAT.BK",
+      "last": 1.36,
+      "date": "2026-07-17",
+      "score": 2.5,
+      "tape": 2.5,
+      "info": 0.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A1_leak": 2.0,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "leak 3.5x on 2026-06-26 (price pinned)",
+        "OBV rising"
+      ]
+    }
+  ]
+}
