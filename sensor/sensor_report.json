@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-08-04 14:57 UTC",
+    "generated": "2026-08-05 14:42 UTC",
     "alert_threshold": 4.0,
     "errors": []
   },
@@ -8,57 +8,37 @@
     {
       "ticker": "STPI",
       "symbol": "STPI.BK",
-      "last": 6.3,
-      "date": "2026-08-04",
-      "score": 4.5,
-      "tape": 3.5,
+      "last": 6.45,
+      "date": "2026-08-05",
+      "score": 5.0,
+      "tape": 4.0,
       "info": 1.0,
       "alert": true,
       "private_channel_flag": false,
       "ignition": null,
       "components": {
         "A1_leak": 2.0,
-        "A4_drift": 1.5
+        "A4_drift": 1.5,
+        "A5_obv_up": 0.5
       },
       "notes": [
         "leak 3.5x on 2026-07-20 (price pinned)",
-        "20d drift +16%, -9% off high",
+        "20d drift +17%, -7% off high",
+        "OBV rising",
         "theme data-center land monetization (2026-07-17)"
       ]
     },
     {
-      "ticker": "TPIPL",
-      "symbol": "TPIPL.BK",
-      "last": 0.9,
-      "date": "2026-08-04",
+      "ticker": "LTS",
+      "symbol": "LTS.BK",
+      "last": 3.24,
+      "date": "2026-08-05",
       "score": 4.0,
       "tape": 4.0,
       "info": 0.0,
       "alert": true,
       "private_channel_flag": true,
       "ignition": null,
-      "components": {
-        "A1_leak": 2.0,
-        "A2_crescendo": 1.5,
-        "A5_obv_up": 0.5
-      },
-      "notes": [
-        "leak 5.8x on 2026-07-21 (price pinned)",
-        "5d vol 1.54x avg20, rising",
-        "OBV rising"
-      ]
-    },
-    {
-      "ticker": "LTS",
-      "symbol": "LTS.BK",
-      "last": 3.22,
-      "date": "2026-08-04",
-      "score": 4.0,
-      "tape": 4.0,
-      "info": 0.0,
-      "alert": true,
-      "private_channel_flag": true,
-      "ignition": "+5.2% on 5.5x vol TODAY",
       "components": {
         "A1_leak": 2.0,
         "A2_crescendo": 1.5,
@@ -66,15 +46,15 @@
       },
       "notes": [
         "leak 3.9x on 2026-07-17 (price pinned)",
-        "5d vol 1.95x avg20, rising",
+        "5d vol 2.02x avg20, rising",
         "OBV rising"
       ]
     },
     {
       "ticker": "MGC",
       "symbol": "MGC.BK",
-      "last": 9.9,
-      "date": "2026-08-04",
+      "last": 9.75,
+      "date": "2026-08-05",
       "score": 4.0,
       "tape": 3.0,
       "info": 1.0,
@@ -88,7 +68,7 @@
       },
       "notes": [
         "burst 12.0x on 2026-07-13",
-        "20d drift +43%, -7% off high",
+        "20d drift +32%, -8% off high",
         "OBV rising",
         "theme EV / XPENG partnership (2026-07-15)"
       ]
@@ -96,8 +76,8 @@
     {
       "ticker": "PLAT",
       "symbol": "PLAT.BK",
-      "last": 1.42,
-      "date": "2026-08-04",
+      "last": 1.4,
+      "date": "2026-08-05",
       "score": 3.0,
       "tape": 3.0,
       "info": 0.0,
@@ -118,8 +98,8 @@
     {
       "ticker": "SALEE",
       "symbol": "SALEE.BK",
-      "last": 0.62,
-      "date": "2026-08-04",
+      "last": 0.59,
+      "date": "2026-08-05",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -136,10 +116,30 @@
       ]
     },
     {
+      "ticker": "TPIPL",
+      "symbol": "TPIPL.BK",
+      "last": 0.89,
+      "date": "2026-08-05",
+      "score": 2.5,
+      "tape": 2.5,
+      "info": 0.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A1_leak": 2.0,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "leak 5.8x on 2026-07-21 (price pinned)",
+        "OBV rising"
+      ]
+    },
+    {
       "ticker": "TPIPP",
       "symbol": "TPIPP.BK",
-      "last": 1.81,
-      "date": "2026-08-04",
+      "last": 1.83,
+      "date": "2026-08-05",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -158,8 +158,8 @@
     {
       "ticker": "EPG",
       "symbol": "EPG.BK",
-      "last": 6.3,
-      "date": "2026-08-04",
+      "last": 6.1,
+      "date": "2026-08-05",
       "score": 2.5,
       "tape": 1.5,
       "info": 1.0,
@@ -179,8 +179,8 @@
     {
       "ticker": "S",
       "symbol": "S.BK",
-      "last": 0.54,
-      "date": "2026-08-04",
+      "last": 0.56,
+      "date": "2026-08-05",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -200,7 +200,7 @@
       "ticker": "CAZ",
       "symbol": "CAZ.BK",
       "last": 2.34,
-      "date": "2026-08-04",
+      "date": "2026-08-05",
       "score": 1.5,
       "tape": 1.5,
       "info": 0.0,
