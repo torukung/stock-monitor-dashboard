@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-08-07 13:45 UTC",
+    "generated": "2026-08-10 13:51 UTC",
     "alert_threshold": 4.0,
     "errors": []
   },
@@ -8,31 +8,29 @@
     {
       "ticker": "STPI",
       "symbol": "STPI.BK",
-      "last": 6.4,
-      "date": "2026-08-07",
-      "score": 5.0,
-      "tape": 4.0,
+      "last": 6.3,
+      "date": "2026-08-10",
+      "score": 4.5,
+      "tape": 3.5,
       "info": 1.0,
       "alert": true,
       "private_channel_flag": false,
       "ignition": null,
       "components": {
         "A1_leak": 2.0,
-        "A4_drift": 1.5,
-        "A5_obv_up": 0.5
+        "A4_drift": 1.5
       },
       "notes": [
         "leak 3.5x on 2026-07-20 (price pinned)",
-        "20d drift +27%, -8% off high",
-        "OBV rising",
+        "20d drift +18%, -9% off high",
         "theme data-center land monetization (2026-07-17)"
       ]
     },
     {
       "ticker": "LTS",
       "symbol": "LTS.BK",
-      "last": 3.12,
-      "date": "2026-08-07",
+      "last": 2.94,
+      "date": "2026-08-10",
       "score": 4.0,
       "tape": 4.0,
       "info": 0.0,
@@ -46,50 +44,7 @@
       },
       "notes": [
         "leak 3.9x on 2026-07-17 (price pinned)",
-        "5d vol 1.72x avg20, rising",
-        "OBV rising"
-      ]
-    },
-    {
-      "ticker": "MGC",
-      "symbol": "MGC.BK",
-      "last": 9.8,
-      "date": "2026-08-07",
-      "score": 4.0,
-      "tape": 3.0,
-      "info": 1.0,
-      "alert": true,
-      "private_channel_flag": false,
-      "ignition": null,
-      "components": {
-        "A1_burst": 1.0,
-        "A4_drift": 1.5,
-        "A5_obv_up": 0.5
-      },
-      "notes": [
-        "burst 12.0x on 2026-07-13",
-        "20d drift +39%, -8% off high",
-        "OBV rising",
-        "theme EV / XPENG partnership (2026-07-15)"
-      ]
-    },
-    {
-      "ticker": "SALEE",
-      "symbol": "SALEE.BK",
-      "last": 0.6,
-      "date": "2026-08-07",
-      "score": 2.5,
-      "tape": 2.5,
-      "info": 0.0,
-      "alert": false,
-      "private_channel_flag": false,
-      "ignition": null,
-      "components": {
-        "A1_leak": 2.0,
-        "A5_obv_up": 0.5
-      },
-      "notes": [
-        "leak 3.7x on 2026-07-09 (price pinned)",
+        "5d vol 1.64x avg20, rising",
         "OBV rising"
       ]
     },
@@ -97,7 +52,7 @@
       "ticker": "TPIPL",
       "symbol": "TPIPL.BK",
       "last": 0.89,
-      "date": "2026-08-07",
+      "date": "2026-08-10",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -116,8 +71,8 @@
     {
       "ticker": "TPIPP",
       "symbol": "TPIPP.BK",
-      "last": 1.82,
-      "date": "2026-08-07",
+      "last": 1.79,
+      "date": "2026-08-10",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -136,8 +91,8 @@
     {
       "ticker": "EPG",
       "symbol": "EPG.BK",
-      "last": 6.1,
-      "date": "2026-08-07",
+      "last": 6.0,
+      "date": "2026-08-10",
       "score": 2.5,
       "tape": 1.5,
       "info": 1.0,
@@ -157,8 +112,8 @@
     {
       "ticker": "S",
       "symbol": "S.BK",
-      "last": 0.55,
-      "date": "2026-08-07",
+      "last": 0.53,
+      "date": "2026-08-10",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -175,10 +130,51 @@
       ]
     },
     {
+      "ticker": "MGC",
+      "symbol": "MGC.BK",
+      "last": 7.9,
+      "date": "2026-08-10",
+      "score": 2.5,
+      "tape": 1.5,
+      "info": 1.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A1_burst": 1.0,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "burst 12.0x on 2026-07-13",
+        "OBV rising",
+        "theme EV / XPENG partnership (2026-07-15)"
+      ]
+    },
+    {
+      "ticker": "SALEE",
+      "symbol": "SALEE.BK",
+      "last": 0.6,
+      "date": "2026-08-10",
+      "score": 1.5,
+      "tape": 1.5,
+      "info": 0.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A1_burst": 1.0,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "burst 11.0x on 2026-07-17",
+        "OBV rising"
+      ]
+    },
+    {
       "ticker": "PLAT",
       "symbol": "PLAT.BK",
-      "last": 1.39,
-      "date": "2026-08-07",
+      "last": 1.37,
+      "date": "2026-08-10",
       "score": 1.5,
       "tape": 1.5,
       "info": 0.0,
@@ -197,8 +193,8 @@
     {
       "ticker": "CAZ",
       "symbol": "CAZ.BK",
-      "last": 2.36,
-      "date": "2026-08-07",
+      "last": 2.46,
+      "date": "2026-08-10",
       "score": 1.5,
       "tape": 1.5,
       "info": 0.0,
