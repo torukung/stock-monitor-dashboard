@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-08-14 13:50 UTC",
+    "generated": "2026-08-17 13:13 UTC",
     "alert_threshold": 4.0,
     "errors": []
   },
@@ -8,52 +8,52 @@
     {
       "ticker": "STPI",
       "symbol": "STPI.BK",
-      "last": 6.1,
-      "date": "2026-08-14",
-      "score": 5.0,
-      "tape": 4.0,
+      "last": 5.95,
+      "date": "2026-08-17",
+      "score": 4.5,
+      "tape": 3.5,
       "info": 1.0,
       "alert": true,
       "private_channel_flag": false,
       "ignition": null,
       "components": {
         "A1_leak": 2.0,
-        "A4_drift": 1.5,
-        "A5_obv_up": 0.5
+        "A4_drift": 1.5
       },
       "notes": [
         "leak 3.5x on 2026-07-20 (price pinned)",
-        "20d drift +18%, -12% off high",
-        "OBV rising",
+        "20d drift +16%, -14% off high",
         "theme data-center land monetization (2026-07-17)"
       ]
     },
     {
       "ticker": "MGC",
       "symbol": "MGC.BK",
-      "last": 8.55,
-      "date": "2026-08-14",
-      "score": 3.5,
-      "tape": 2.5,
+      "last": 8.85,
+      "date": "2026-08-17",
+      "score": 4.0,
+      "tape": 3.0,
       "info": 1.0,
-      "alert": false,
+      "alert": true,
       "private_channel_flag": false,
       "ignition": null,
       "components": {
         "A1_burst": 1.0,
-        "A2_crescendo": 1.5
+        "A2_crescendo": 1.5,
+        "A5_obv_up": 0.5
       },
       "notes": [
         "burst 3.9x on 2026-08-10",
-        "5d vol 1.74x avg20, rising",
+        "5d vol 1.85x avg20, rising",
+        "OBV rising",
         "theme EV / XPENG partnership (2026-07-15)"
       ]
     },
     {
       "ticker": "TPIPL",
       "symbol": "TPIPL.BK",
-      "last": 0.89,
-      "date": "2026-08-14",
+      "last": 0.92,
+      "date": "2026-08-17",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -70,10 +70,51 @@
       ]
     },
     {
+      "ticker": "TPIPP",
+      "symbol": "TPIPP.BK",
+      "last": 1.8,
+      "date": "2026-08-17",
+      "score": 2.5,
+      "tape": 2.5,
+      "info": 0.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A1_leak": 2.0,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "leak 5.6x on 2026-07-17 (price pinned)",
+        "OBV rising"
+      ]
+    },
+    {
+      "ticker": "EPG",
+      "symbol": "EPG.BK",
+      "last": 6.1,
+      "date": "2026-08-17",
+      "score": 2.5,
+      "tape": 1.5,
+      "info": 1.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A1_burst": 1.0,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "burst 3.3x on 2026-07-16",
+        "OBV rising",
+        "theme data-center/TSMC insulation (2026-07-03)"
+      ]
+    },
+    {
       "ticker": "LTS",
       "symbol": "LTS.BK",
-      "last": 2.84,
-      "date": "2026-08-14",
+      "last": 2.76,
+      "date": "2026-08-17",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -92,8 +133,8 @@
     {
       "ticker": "SALEE",
       "symbol": "SALEE.BK",
-      "last": 0.57,
-      "date": "2026-08-14",
+      "last": 0.58,
+      "date": "2026-08-17",
       "score": 2.0,
       "tape": 2.0,
       "info": 0.0,
@@ -108,31 +149,51 @@
       ]
     },
     {
-      "ticker": "TPIPP",
-      "symbol": "TPIPP.BK",
-      "last": 1.79,
-      "date": "2026-08-14",
-      "score": 2.0,
-      "tape": 2.0,
+      "ticker": "PLAT",
+      "symbol": "PLAT.BK",
+      "last": 1.42,
+      "date": "2026-08-17",
+      "score": 1.5,
+      "tape": 1.5,
+      "info": 0.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": "+6.8% on 3.1x vol TODAY",
+      "components": {
+        "A1_burst": 1.0,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "burst 3.5x on 2026-08-17",
+        "OBV rising"
+      ]
+    },
+    {
+      "ticker": "CAZ",
+      "symbol": "CAZ.BK",
+      "last": 2.3,
+      "date": "2026-08-17",
+      "score": 1.5,
+      "tape": 1.5,
       "info": 0.0,
       "alert": false,
       "private_channel_flag": false,
       "ignition": null,
       "components": {
-        "A1_leak": 2.0
+        "A2_crescendo": 1.5
       },
       "notes": [
-        "leak 5.6x on 2026-07-17 (price pinned)"
+        "5d vol 1.36x avg20, rising"
       ]
     },
     {
-      "ticker": "EPG",
-      "symbol": "EPG.BK",
-      "last": 6.0,
-      "date": "2026-08-14",
-      "score": 2.0,
+      "ticker": "S",
+      "symbol": "S.BK",
+      "last": 0.52,
+      "date": "2026-08-17",
+      "score": 1.0,
       "tape": 1.0,
-      "info": 1.0,
+      "info": 0.0,
       "alert": false,
       "private_channel_flag": false,
       "ignition": null,
@@ -140,64 +201,7 @@
         "A1_burst": 1.0
       },
       "notes": [
-        "burst 3.3x on 2026-07-16",
-        "theme data-center/TSMC insulation (2026-07-03)"
-      ]
-    },
-    {
-      "ticker": "S",
-      "symbol": "S.BK",
-      "last": 0.51,
-      "date": "2026-08-14",
-      "score": 2.0,
-      "tape": 2.0,
-      "info": 0.0,
-      "alert": false,
-      "private_channel_flag": false,
-      "ignition": null,
-      "components": {
-        "A1_leak": 2.0
-      },
-      "notes": [
-        "leak 4.3x on 2026-07-15 (price pinned)"
-      ]
-    },
-    {
-      "ticker": "PLAT",
-      "symbol": "PLAT.BK",
-      "last": 1.33,
-      "date": "2026-08-14",
-      "score": 0.0,
-      "tape": 0.0,
-      "info": 0.0,
-      "alert": false,
-      "private_channel_flag": false,
-      "ignition": null,
-      "components": {
-        "A1_burst": 1.0,
-        "A5_obv_down": -1.0
-      },
-      "notes": [
-        "burst 3.0x on 2026-07-30",
-        "OBV falling (veto-weight)"
-      ]
-    },
-    {
-      "ticker": "CAZ",
-      "symbol": "CAZ.BK",
-      "last": 2.26,
-      "date": "2026-08-14",
-      "score": -1.0,
-      "tape": -1.0,
-      "info": 0.0,
-      "alert": false,
-      "private_channel_flag": false,
-      "ignition": null,
-      "components": {
-        "A5_obv_down": -1.0
-      },
-      "notes": [
-        "OBV falling (veto-weight)"
+        "burst 4.3x on 2026-07-20"
       ]
     }
   ]
