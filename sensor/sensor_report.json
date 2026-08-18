@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-08-17 13:13 UTC",
+    "generated": "2026-08-18 13:15 UTC",
     "alert_threshold": 4.0,
     "errors": []
   },
@@ -8,52 +8,27 @@
     {
       "ticker": "STPI",
       "symbol": "STPI.BK",
-      "last": 5.95,
-      "date": "2026-08-17",
-      "score": 4.5,
-      "tape": 3.5,
+      "last": 6.0,
+      "date": "2026-08-18",
+      "score": 3.0,
+      "tape": 2.0,
       "info": 1.0,
-      "alert": true,
+      "alert": false,
       "private_channel_flag": false,
       "ignition": null,
       "components": {
-        "A1_leak": 2.0,
-        "A4_drift": 1.5
+        "A1_leak": 2.0
       },
       "notes": [
         "leak 3.5x on 2026-07-20 (price pinned)",
-        "20d drift +16%, -14% off high",
         "theme data-center land monetization (2026-07-17)"
-      ]
-    },
-    {
-      "ticker": "MGC",
-      "symbol": "MGC.BK",
-      "last": 8.85,
-      "date": "2026-08-17",
-      "score": 4.0,
-      "tape": 3.0,
-      "info": 1.0,
-      "alert": true,
-      "private_channel_flag": false,
-      "ignition": null,
-      "components": {
-        "A1_burst": 1.0,
-        "A2_crescendo": 1.5,
-        "A5_obv_up": 0.5
-      },
-      "notes": [
-        "burst 3.9x on 2026-08-10",
-        "5d vol 1.85x avg20, rising",
-        "OBV rising",
-        "theme EV / XPENG partnership (2026-07-15)"
       ]
     },
     {
       "ticker": "TPIPL",
       "symbol": "TPIPL.BK",
-      "last": 0.92,
-      "date": "2026-08-17",
+      "last": 0.93,
+      "date": "2026-08-18",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -70,30 +45,10 @@
       ]
     },
     {
-      "ticker": "TPIPP",
-      "symbol": "TPIPP.BK",
-      "last": 1.8,
-      "date": "2026-08-17",
-      "score": 2.5,
-      "tape": 2.5,
-      "info": 0.0,
-      "alert": false,
-      "private_channel_flag": false,
-      "ignition": null,
-      "components": {
-        "A1_leak": 2.0,
-        "A5_obv_up": 0.5
-      },
-      "notes": [
-        "leak 5.6x on 2026-07-17 (price pinned)",
-        "OBV rising"
-      ]
-    },
-    {
       "ticker": "EPG",
       "symbol": "EPG.BK",
-      "last": 6.1,
-      "date": "2026-08-17",
+      "last": 6.3,
+      "date": "2026-08-18",
       "score": 2.5,
       "tape": 1.5,
       "info": 1.0,
@@ -101,20 +56,18 @@
       "private_channel_flag": false,
       "ignition": null,
       "components": {
-        "A1_burst": 1.0,
-        "A5_obv_up": 0.5
+        "A2_crescendo": 1.5
       },
       "notes": [
-        "burst 3.3x on 2026-07-16",
-        "OBV rising",
+        "5d vol 1.40x avg20, rising",
         "theme data-center/TSMC insulation (2026-07-03)"
       ]
     },
     {
       "ticker": "LTS",
       "symbol": "LTS.BK",
-      "last": 2.76,
-      "date": "2026-08-17",
+      "last": 2.7,
+      "date": "2026-08-18",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -131,10 +84,31 @@
       ]
     },
     {
+      "ticker": "MGC",
+      "symbol": "MGC.BK",
+      "last": 8.85,
+      "date": "2026-08-18",
+      "score": 2.5,
+      "tape": 1.5,
+      "info": 1.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A1_burst": 1.0,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "burst 3.9x on 2026-08-10",
+        "OBV rising",
+        "theme EV / XPENG partnership (2026-07-15)"
+      ]
+    },
+    {
       "ticker": "SALEE",
       "symbol": "SALEE.BK",
       "last": 0.58,
-      "date": "2026-08-17",
+      "date": "2026-08-18",
       "score": 2.0,
       "tape": 2.0,
       "info": 0.0,
@@ -149,30 +123,28 @@
       ]
     },
     {
-      "ticker": "PLAT",
-      "symbol": "PLAT.BK",
-      "last": 1.42,
-      "date": "2026-08-17",
-      "score": 1.5,
-      "tape": 1.5,
+      "ticker": "TPIPP",
+      "symbol": "TPIPP.BK",
+      "last": 1.8,
+      "date": "2026-08-18",
+      "score": 2.0,
+      "tape": 2.0,
       "info": 0.0,
       "alert": false,
       "private_channel_flag": false,
-      "ignition": "+6.8% on 3.1x vol TODAY",
+      "ignition": null,
       "components": {
-        "A1_burst": 1.0,
-        "A5_obv_up": 0.5
+        "A1_leak": 2.0
       },
       "notes": [
-        "burst 3.5x on 2026-08-17",
-        "OBV rising"
+        "leak 5.6x on 2026-07-17 (price pinned)"
       ]
     },
     {
-      "ticker": "CAZ",
-      "symbol": "CAZ.BK",
-      "last": 2.3,
-      "date": "2026-08-17",
+      "ticker": "S",
+      "symbol": "S.BK",
+      "last": 0.51,
+      "date": "2026-08-18",
       "score": 1.5,
       "tape": 1.5,
       "info": 0.0,
@@ -180,17 +152,19 @@
       "private_channel_flag": false,
       "ignition": null,
       "components": {
-        "A2_crescendo": 1.5
+        "A1_burst": 1.0,
+        "A5_obv_up": 0.5
       },
       "notes": [
-        "5d vol 1.36x avg20, rising"
+        "burst 4.3x on 2026-07-20",
+        "OBV rising"
       ]
     },
     {
-      "ticker": "S",
-      "symbol": "S.BK",
-      "last": 0.52,
-      "date": "2026-08-17",
+      "ticker": "PLAT",
+      "symbol": "PLAT.BK",
+      "last": 1.4,
+      "date": "2026-08-18",
       "score": 1.0,
       "tape": 1.0,
       "info": 0.0,
@@ -201,8 +175,22 @@
         "A1_burst": 1.0
       },
       "notes": [
-        "burst 4.3x on 2026-07-20"
+        "burst 3.5x on 2026-08-17"
       ]
+    },
+    {
+      "ticker": "CAZ",
+      "symbol": "CAZ.BK",
+      "last": 2.32,
+      "date": "2026-08-18",
+      "score": 0.0,
+      "tape": 0.0,
+      "info": 0.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {},
+      "notes": []
     }
   ]
 }
