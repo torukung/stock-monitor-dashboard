@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-08-28 22:29 UTC",
+    "generated": "2026-08-31 19:10 UTC",
     "alert_threshold": 4.0,
     "errors": []
   },
@@ -8,14 +8,14 @@
     {
       "ticker": "CAZ",
       "symbol": "CAZ.BK",
-      "last": 2.4,
-      "date": "2026-08-28",
+      "last": 2.58,
+      "date": "2026-08-31",
       "score": 4.0,
       "tape": 4.0,
       "info": 0.0,
       "alert": true,
       "private_channel_flag": true,
-      "ignition": null,
+      "ignition": "+7.5% on 6.6x vol TODAY",
       "components": {
         "A1_leak": 2.0,
         "A2_crescendo": 1.5,
@@ -23,35 +23,15 @@
       },
       "notes": [
         "leak 4.8x on 2026-08-24 (price pinned)",
-        "5d vol 1.43x avg20, rising",
+        "5d vol 1.67x avg20, rising",
         "OBV rising"
-      ]
-    },
-    {
-      "ticker": "SALEE",
-      "symbol": "SALEE.BK",
-      "last": 0.59,
-      "date": "2026-08-28",
-      "score": 3.5,
-      "tape": 3.5,
-      "info": 0.0,
-      "alert": false,
-      "private_channel_flag": true,
-      "ignition": null,
-      "components": {
-        "A1_leak": 2.0,
-        "A2_crescendo": 1.5
-      },
-      "notes": [
-        "leak 3.9x on 2026-08-25 (price pinned)",
-        "5d vol 1.32x avg20, rising"
       ]
     },
     {
       "ticker": "LTS",
       "symbol": "LTS.BK",
-      "last": 2.66,
-      "date": "2026-08-28",
+      "last": 2.7,
+      "date": "2026-08-31",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -65,34 +45,53 @@
       },
       "notes": [
         "burst 7.6x on 2026-08-04",
-        "ATR 5.2% <= 25th pct (5.2%)",
+        "ATR 4.5% <= 25th pct (5.2%)",
         "OBV rising"
       ]
     },
     {
-      "ticker": "MGC",
-      "symbol": "MGC.BK",
-      "last": 7.9,
-      "date": "2026-08-28",
+      "ticker": "SALEE",
+      "symbol": "SALEE.BK",
+      "last": 0.6,
+      "date": "2026-08-31",
       "score": 2.0,
-      "tape": 1.0,
-      "info": 1.0,
+      "tape": 2.0,
+      "info": 0.0,
       "alert": false,
       "private_channel_flag": false,
       "ignition": null,
       "components": {
-        "A1_burst": 1.0
+        "A1_leak": 2.0
       },
       "notes": [
-        "burst 3.9x on 2026-08-10",
-        "theme EV / XPENG partnership (2026-07-15)"
+        "leak 3.9x on 2026-08-25 (price pinned)"
+      ]
+    },
+    {
+      "ticker": "PLAT",
+      "symbol": "PLAT.BK",
+      "last": 1.39,
+      "date": "2026-08-31",
+      "score": 1.5,
+      "tape": 1.5,
+      "info": 0.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A1_burst": 1.0,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "burst 3.5x on 2026-08-17",
+        "OBV rising"
       ]
     },
     {
       "ticker": "EPG",
       "symbol": "EPG.BK",
       "last": 6.25,
-      "date": "2026-08-28",
+      "date": "2026-08-31",
       "score": 1.0,
       "tape": 0.0,
       "info": 1.0,
@@ -105,28 +104,31 @@
       ]
     },
     {
-      "ticker": "PLAT",
-      "symbol": "PLAT.BK",
-      "last": 1.4,
-      "date": "2026-08-28",
+      "ticker": "MGC",
+      "symbol": "MGC.BK",
+      "last": 7.65,
+      "date": "2026-08-31",
       "score": 1.0,
-      "tape": 1.0,
-      "info": 0.0,
+      "tape": 0.0,
+      "info": 1.0,
       "alert": false,
       "private_channel_flag": false,
       "ignition": null,
       "components": {
-        "A1_burst": 1.0
+        "A1_burst": 1.0,
+        "A5_obv_down": -1.0
       },
       "notes": [
-        "burst 3.5x on 2026-08-17"
+        "burst 3.9x on 2026-08-10",
+        "OBV falling (veto-weight)",
+        "theme EV / XPENG partnership (2026-07-15)"
       ]
     },
     {
       "ticker": "TPIPL",
       "symbol": "TPIPL.BK",
       "last": 0.91,
-      "date": "2026-08-28",
+      "date": "2026-08-31",
       "score": 0.5,
       "tape": 0.5,
       "info": 0.0,
@@ -141,10 +143,30 @@
       ]
     },
     {
+      "ticker": "TPIPP",
+      "symbol": "TPIPP.BK",
+      "last": 1.76,
+      "date": "2026-08-31",
+      "score": 0.0,
+      "tape": 0.0,
+      "info": 0.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A3_squeeze": 1.0,
+        "A5_obv_down": -1.0
+      },
+      "notes": [
+        "ATR 1.2% <= 25th pct (1.2%)",
+        "OBV falling (veto-weight)"
+      ]
+    },
+    {
       "ticker": "STPI",
       "symbol": "STPI.BK",
-      "last": 5.85,
-      "date": "2026-08-28",
+      "last": 5.75,
+      "date": "2026-08-31",
       "score": 0.0,
       "tape": -1.0,
       "info": 1.0,
@@ -162,8 +184,8 @@
     {
       "ticker": "S",
       "symbol": "S.BK",
-      "last": 0.55,
-      "date": "2026-08-28",
+      "last": 0.54,
+      "date": "2026-08-31",
       "score": 0.0,
       "tape": 0.0,
       "info": 0.0,
@@ -172,24 +194,6 @@
       "ignition": null,
       "components": {},
       "notes": []
-    },
-    {
-      "ticker": "TPIPP",
-      "symbol": "TPIPP.BK",
-      "last": 1.75,
-      "date": "2026-08-28",
-      "score": -1.0,
-      "tape": -1.0,
-      "info": 0.0,
-      "alert": false,
-      "private_channel_flag": false,
-      "ignition": null,
-      "components": {
-        "A5_obv_down": -1.0
-      },
-      "notes": [
-        "OBV falling (veto-weight)"
-      ]
     }
   ]
 }
