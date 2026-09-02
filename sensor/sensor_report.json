@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-09-01 16:46 UTC",
+    "generated": "2026-09-02 16:42 UTC",
     "alert_threshold": 4.0,
     "errors": []
   },
@@ -8,8 +8,8 @@
     {
       "ticker": "CAZ",
       "symbol": "CAZ.BK",
-      "last": 2.52,
-      "date": "2026-09-01",
+      "last": 2.42,
+      "date": "2026-09-02",
       "score": 4.0,
       "tape": 4.0,
       "info": 0.0,
@@ -23,57 +23,37 @@
       },
       "notes": [
         "leak 4.8x on 2026-08-24 (price pinned)",
-        "5d vol 1.85x avg20, rising",
+        "5d vol 1.93x avg20, rising",
         "OBV rising"
       ]
     },
     {
       "ticker": "SALEE",
       "symbol": "SALEE.BK",
-      "last": 0.58,
-      "date": "2026-09-01",
-      "score": 3.0,
-      "tape": 3.0,
-      "info": 0.0,
-      "alert": false,
-      "private_channel_flag": true,
-      "ignition": null,
-      "components": {
-        "A1_leak": 2.0,
-        "A3_squeeze": 1.0
-      },
-      "notes": [
-        "leak 3.9x on 2026-08-25 (price pinned)",
-        "ATR 4.1% <= 25th pct (4.1%)"
-      ]
-    },
-    {
-      "ticker": "LTS",
-      "symbol": "LTS.BK",
-      "last": 2.62,
-      "date": "2026-09-01",
-      "score": 2.5,
-      "tape": 2.5,
+      "last": 0.57,
+      "date": "2026-09-02",
+      "score": 2.0,
+      "tape": 2.0,
       "info": 0.0,
       "alert": false,
       "private_channel_flag": false,
       "ignition": null,
       "components": {
-        "A1_burst": 1.0,
+        "A1_leak": 2.0,
         "A3_squeeze": 1.0,
-        "A5_obv_up": 0.5
+        "A5_obv_down": -1.0
       },
       "notes": [
-        "burst 7.6x on 2026-08-04",
-        "ATR 4.6% <= 25th pct (5.2%)",
-        "OBV rising"
+        "leak 3.9x on 2026-08-25 (price pinned)",
+        "ATR 4.0% <= 25th pct (4.1%)",
+        "OBV falling (veto-weight)"
       ]
     },
     {
       "ticker": "EPG",
       "symbol": "EPG.BK",
-      "last": 6.1,
-      "date": "2026-09-01",
+      "last": 6.0,
+      "date": "2026-09-02",
       "score": 1.0,
       "tape": 0.0,
       "info": 1.0,
@@ -89,7 +69,7 @@
       "ticker": "PLAT",
       "symbol": "PLAT.BK",
       "last": 1.36,
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "score": 1.0,
       "tape": 1.0,
       "info": 0.0,
@@ -106,8 +86,8 @@
     {
       "ticker": "MGC",
       "symbol": "MGC.BK",
-      "last": 7.35,
-      "date": "2026-09-01",
+      "last": 7.25,
+      "date": "2026-09-02",
       "score": 1.0,
       "tape": 0.0,
       "info": 1.0,
@@ -128,7 +108,7 @@
       "ticker": "TPIPL",
       "symbol": "TPIPL.BK",
       "last": 0.88,
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "score": 0.0,
       "tape": 0.0,
       "info": 0.0,
@@ -141,8 +121,8 @@
     {
       "ticker": "TPIPP",
       "symbol": "TPIPP.BK",
-      "last": 1.76,
-      "date": "2026-09-01",
+      "last": 1.75,
+      "date": "2026-09-02",
       "score": 0.0,
       "tape": 0.0,
       "info": 0.0,
@@ -161,8 +141,8 @@
     {
       "ticker": "STPI",
       "symbol": "STPI.BK",
-      "last": 5.6,
-      "date": "2026-09-01",
+      "last": 5.55,
+      "date": "2026-09-02",
       "score": 0.0,
       "tape": -1.0,
       "info": 1.0,
@@ -178,10 +158,24 @@
       ]
     },
     {
+      "ticker": "LTS",
+      "symbol": "LTS.BK",
+      "last": 2.44,
+      "date": "2026-09-02",
+      "score": 0.0,
+      "tape": 0.0,
+      "info": 0.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {},
+      "notes": []
+    },
+    {
       "ticker": "S",
       "symbol": "S.BK",
-      "last": 0.54,
-      "date": "2026-09-01",
+      "last": 0.53,
+      "date": "2026-09-02",
       "score": 0.0,
       "tape": 0.0,
       "info": 0.0,
