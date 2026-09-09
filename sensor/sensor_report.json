@@ -1,15 +1,56 @@
 {
   "meta": {
-    "generated": "2026-09-08 16:45 UTC",
+    "generated": "2026-09-09 16:47 UTC",
     "alert_threshold": 4.0,
     "errors": []
   },
   "results": [
     {
+      "ticker": "SALEE",
+      "symbol": "SALEE.BK",
+      "last": 0.59,
+      "date": "2026-09-09",
+      "score": 2.5,
+      "tape": 2.5,
+      "info": 0.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A1_leak": 2.0,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "leak 3.9x on 2026-08-25 (price pinned)",
+        "OBV rising"
+      ]
+    },
+    {
+      "ticker": "EPG",
+      "symbol": "EPG.BK",
+      "last": 6.0,
+      "date": "2026-09-09",
+      "score": 2.5,
+      "tape": 1.5,
+      "info": 1.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A3_squeeze": 1.0,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "ATR 3.3% <= 25th pct (3.7%)",
+        "OBV rising",
+        "theme data-center/TSMC insulation (2026-07-03)"
+      ]
+    },
+    {
       "ticker": "CAZ",
       "symbol": "CAZ.BK",
-      "last": 2.42,
-      "date": "2026-09-08",
+      "last": 2.32,
+      "date": "2026-09-09",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -26,59 +67,22 @@
       ]
     },
     {
-      "ticker": "SALEE",
-      "symbol": "SALEE.BK",
-      "last": 0.59,
-      "date": "2026-09-08",
-      "score": 2.0,
-      "tape": 2.0,
-      "info": 0.0,
-      "alert": false,
-      "private_channel_flag": false,
-      "ignition": null,
-      "components": {
-        "A1_leak": 2.0
-      },
-      "notes": [
-        "leak 3.9x on 2026-08-25 (price pinned)"
-      ]
-    },
-    {
-      "ticker": "EPG",
-      "symbol": "EPG.BK",
-      "last": 5.95,
-      "date": "2026-09-08",
-      "score": 2.0,
-      "tape": 1.0,
-      "info": 1.0,
-      "alert": false,
-      "private_channel_flag": false,
-      "ignition": null,
-      "components": {
-        "A3_squeeze": 1.0
-      },
-      "notes": [
-        "ATR 3.5% <= 25th pct (3.7%)",
-        "theme data-center/TSMC insulation (2026-07-03)"
-      ]
-    },
-    {
       "ticker": "TPIPL",
       "symbol": "TPIPL.BK",
-      "last": 0.89,
-      "date": "2026-09-08",
+      "last": 0.96,
+      "date": "2026-09-09",
       "score": 1.5,
       "tape": 1.5,
       "info": 0.0,
       "alert": false,
       "private_channel_flag": false,
-      "ignition": null,
+      "ignition": "+7.9% on 2.9x vol TODAY",
       "components": {
-        "A3_squeeze": 1.0,
+        "A1_burst": 1.0,
         "A5_obv_up": 0.5
       },
       "notes": [
-        "ATR 2.9% <= 25th pct (3.0%)",
+        "burst 3.2x on 2026-09-09",
         "OBV rising"
       ]
     },
@@ -86,7 +90,7 @@
       "ticker": "PLAT",
       "symbol": "PLAT.BK",
       "last": 1.39,
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "score": 1.5,
       "tape": 1.5,
       "info": 0.0,
@@ -103,21 +107,39 @@
       ]
     },
     {
-      "ticker": "MGC",
-      "symbol": "MGC.BK",
-      "last": 7.35,
-      "date": "2026-09-08",
-      "score": 1.5,
-      "tape": 0.5,
+      "ticker": "STPI",
+      "symbol": "STPI.BK",
+      "last": 5.6,
+      "date": "2026-09-09",
+      "score": 1.0,
+      "tape": 0.0,
       "info": 1.0,
       "alert": false,
       "private_channel_flag": false,
       "ignition": null,
       "components": {
-        "A5_obv_up": 0.5
+        "A3_squeeze": 1.0,
+        "A5_obv_down": -1.0
       },
       "notes": [
-        "OBV rising",
+        "ATR 3.4% <= 25th pct (3.9%)",
+        "OBV falling (veto-weight)",
+        "theme data-center land monetization (2026-07-17)"
+      ]
+    },
+    {
+      "ticker": "MGC",
+      "symbol": "MGC.BK",
+      "last": 7.3,
+      "date": "2026-09-09",
+      "score": 1.0,
+      "tape": 0.0,
+      "info": 1.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {},
+      "notes": [
         "theme EV / XPENG partnership (2026-07-15)"
       ]
     },
@@ -125,7 +147,7 @@
       "ticker": "TPIPP",
       "symbol": "TPIPP.BK",
       "last": 1.76,
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "score": 0.0,
       "tape": 0.0,
       "info": 0.0,
@@ -137,34 +159,15 @@
         "A5_obv_down": -1.0
       },
       "notes": [
-        "ATR 1.0% <= 25th pct (1.2%)",
+        "ATR 0.9% <= 25th pct (1.2%)",
         "OBV falling (veto-weight)"
-      ]
-    },
-    {
-      "ticker": "STPI",
-      "symbol": "STPI.BK",
-      "last": 5.35,
-      "date": "2026-09-08",
-      "score": 0.0,
-      "tape": -1.0,
-      "info": 1.0,
-      "alert": false,
-      "private_channel_flag": false,
-      "ignition": null,
-      "components": {
-        "A5_obv_down": -1.0
-      },
-      "notes": [
-        "OBV falling (veto-weight)",
-        "theme data-center land monetization (2026-07-17)"
       ]
     },
     {
       "ticker": "LTS",
       "symbol": "LTS.BK",
-      "last": 2.52,
-      "date": "2026-09-08",
+      "last": 2.5,
+      "date": "2026-09-09",
       "score": 0.0,
       "tape": 0.0,
       "info": 0.0,
@@ -176,27 +179,23 @@
         "A5_obv_down": -1.0
       },
       "notes": [
-        "ATR 4.3% <= 25th pct (4.9%)",
+        "ATR 4.1% <= 25th pct (4.9%)",
         "OBV falling (veto-weight)"
       ]
     },
     {
       "ticker": "S",
       "symbol": "S.BK",
-      "last": 0.53,
-      "date": "2026-09-08",
-      "score": -1.0,
-      "tape": -1.0,
+      "last": 0.54,
+      "date": "2026-09-09",
+      "score": 0.0,
+      "tape": 0.0,
       "info": 0.0,
       "alert": false,
       "private_channel_flag": false,
       "ignition": null,
-      "components": {
-        "A5_obv_down": -1.0
-      },
-      "notes": [
-        "OBV falling (veto-weight)"
-      ]
+      "components": {},
+      "notes": []
     }
   ]
 }
