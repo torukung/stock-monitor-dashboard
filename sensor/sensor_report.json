@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-09-10 16:33 UTC",
+    "generated": "2026-09-11 16:38 UTC",
     "alert_threshold": 4.0,
     "errors": []
   },
@@ -8,14 +8,14 @@
     {
       "ticker": "TPIPL",
       "symbol": "TPIPL.BK",
-      "last": 0.96,
-      "date": "2026-09-10",
+      "last": 1.02,
+      "date": "2026-09-11",
       "score": 4.0,
       "tape": 4.0,
       "info": 0.0,
       "alert": true,
       "private_channel_flag": true,
-      "ignition": null,
+      "ignition": "+6.2% on 4.1x vol TODAY",
       "components": {
         "A1_leak": 2.0,
         "A2_crescendo": 1.5,
@@ -23,7 +23,7 @@
       },
       "notes": [
         "leak 3.8x on 2026-09-10 (price pinned)",
-        "5d vol 1.42x avg20, rising",
+        "5d vol 1.97x avg20, rising",
         "OBV rising"
       ]
     },
@@ -31,27 +31,50 @@
       "ticker": "SALEE",
       "symbol": "SALEE.BK",
       "last": 0.58,
-      "date": "2026-09-10",
-      "score": 2.5,
-      "tape": 2.5,
+      "date": "2026-09-11",
+      "score": 3.5,
+      "tape": 3.5,
       "info": 0.0,
       "alert": false,
-      "private_channel_flag": false,
+      "private_channel_flag": true,
       "ignition": null,
       "components": {
         "A1_leak": 2.0,
+        "A3_squeeze": 1.0,
         "A5_obv_up": 0.5
       },
       "notes": [
         "leak 3.9x on 2026-08-25 (price pinned)",
+        "ATR 4.1% <= 25th pct (4.1%)",
         "OBV rising"
+      ]
+    },
+    {
+      "ticker": "EPG",
+      "symbol": "EPG.BK",
+      "last": 6.0,
+      "date": "2026-09-11",
+      "score": 2.5,
+      "tape": 1.5,
+      "info": 1.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A3_squeeze": 1.0,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "ATR 3.4% <= 25th pct (3.6%)",
+        "OBV rising",
+        "theme data-center/TSMC insulation (2026-07-03)"
       ]
     },
     {
       "ticker": "CAZ",
       "symbol": "CAZ.BK",
-      "last": 2.4,
-      "date": "2026-09-10",
+      "last": 2.38,
+      "date": "2026-09-11",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -68,29 +91,10 @@
       ]
     },
     {
-      "ticker": "EPG",
-      "symbol": "EPG.BK",
-      "last": 5.95,
-      "date": "2026-09-10",
-      "score": 2.0,
-      "tape": 1.0,
-      "info": 1.0,
-      "alert": false,
-      "private_channel_flag": false,
-      "ignition": null,
-      "components": {
-        "A3_squeeze": 1.0
-      },
-      "notes": [
-        "ATR 3.4% <= 25th pct (3.7%)",
-        "theme data-center/TSMC insulation (2026-07-03)"
-      ]
-    },
-    {
       "ticker": "PLAT",
       "symbol": "PLAT.BK",
-      "last": 1.4,
-      "date": "2026-09-10",
+      "last": 1.38,
+      "date": "2026-09-11",
       "score": 1.5,
       "tape": 1.5,
       "info": 0.0,
@@ -109,8 +113,8 @@
     {
       "ticker": "STPI",
       "symbol": "STPI.BK",
-      "last": 5.55,
-      "date": "2026-09-10",
+      "last": 5.45,
+      "date": "2026-09-11",
       "score": 1.0,
       "tape": 0.0,
       "info": 1.0,
@@ -122,32 +126,34 @@
         "A5_obv_down": -1.0
       },
       "notes": [
-        "ATR 3.6% <= 25th pct (3.9%)",
+        "ATR 3.6% <= 25th pct (3.8%)",
         "OBV falling (veto-weight)",
         "theme data-center land monetization (2026-07-17)"
       ]
     },
     {
-      "ticker": "MGC",
-      "symbol": "MGC.BK",
-      "last": 7.45,
-      "date": "2026-09-10",
+      "ticker": "S",
+      "symbol": "S.BK",
+      "last": 0.53,
+      "date": "2026-09-11",
       "score": 1.0,
-      "tape": 0.0,
-      "info": 1.0,
+      "tape": 1.0,
+      "info": 0.0,
       "alert": false,
       "private_channel_flag": false,
       "ignition": null,
-      "components": {},
+      "components": {
+        "A3_squeeze": 1.0
+      },
       "notes": [
-        "theme EV / XPENG partnership (2026-07-15)"
+        "ATR 3.0% <= 25th pct (3.1%)"
       ]
     },
     {
       "ticker": "TPIPP",
       "symbol": "TPIPP.BK",
       "last": 1.76,
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "score": 0.0,
       "tape": 0.0,
       "info": 0.0,
@@ -159,7 +165,7 @@
         "A5_obv_down": -1.0
       },
       "notes": [
-        "ATR 1.0% <= 25th pct (1.2%)",
+        "ATR 0.9% <= 25th pct (1.2%)",
         "OBV falling (veto-weight)"
       ]
     },
@@ -167,7 +173,7 @@
       "ticker": "LTS",
       "symbol": "LTS.BK",
       "last": 2.56,
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "score": 0.0,
       "tape": 0.0,
       "info": 0.0,
@@ -184,13 +190,13 @@
       ]
     },
     {
-      "ticker": "S",
-      "symbol": "S.BK",
-      "last": 0.54,
-      "date": "2026-09-10",
-      "score": -1.0,
+      "ticker": "MGC",
+      "symbol": "MGC.BK",
+      "last": 7.2,
+      "date": "2026-09-11",
+      "score": 0.0,
       "tape": -1.0,
-      "info": 0.0,
+      "info": 1.0,
       "alert": false,
       "private_channel_flag": false,
       "ignition": null,
@@ -198,7 +204,8 @@
         "A5_obv_down": -1.0
       },
       "notes": [
-        "OBV falling (veto-weight)"
+        "OBV falling (veto-weight)",
+        "theme EV / XPENG partnership (2026-07-15)"
       ]
     }
   ]
