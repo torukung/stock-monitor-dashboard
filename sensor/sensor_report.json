@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-09-14 18:07 UTC",
+    "generated": "2026-09-15 17:09 UTC",
     "alert_threshold": 4.0,
     "errors": []
   },
@@ -8,8 +8,8 @@
     {
       "ticker": "TPIPL",
       "symbol": "TPIPL.BK",
-      "last": 0.99,
-      "date": "2026-09-14",
+      "last": 0.98,
+      "date": "2026-09-15",
       "score": 4.0,
       "tape": 4.0,
       "info": 0.0,
@@ -23,15 +23,15 @@
       },
       "notes": [
         "leak 3.8x on 2026-09-10 (price pinned)",
-        "5d vol 2.35x avg20, rising",
+        "5d vol 2.47x avg20, rising",
         "OBV rising"
       ]
     },
     {
       "ticker": "SALEE",
       "symbol": "SALEE.BK",
-      "last": 0.59,
-      "date": "2026-09-14",
+      "last": 0.57,
+      "date": "2026-09-15",
       "score": 3.5,
       "tape": 3.5,
       "info": 0.0,
@@ -45,15 +45,15 @@
       },
       "notes": [
         "leak 3.9x on 2026-08-25 (price pinned)",
-        "ATR 3.9% <= 25th pct (4.1%)",
+        "ATR 4.0% <= 25th pct (4.0%)",
         "OBV rising"
       ]
     },
     {
       "ticker": "CAZ",
       "symbol": "CAZ.BK",
-      "last": 2.3,
-      "date": "2026-09-14",
+      "last": 2.32,
+      "date": "2026-09-15",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -72,8 +72,8 @@
     {
       "ticker": "STPI",
       "symbol": "STPI.BK",
-      "last": 5.45,
-      "date": "2026-09-14",
+      "last": 5.5,
+      "date": "2026-09-15",
       "score": 1.0,
       "tape": 0.0,
       "info": 1.0,
@@ -85,34 +85,16 @@
         "A5_obv_down": -1.0
       },
       "notes": [
-        "ATR 3.7% <= 25th pct (3.8%)",
+        "ATR 3.6% <= 25th pct (3.8%)",
         "OBV falling (veto-weight)",
         "theme data-center land monetization (2026-07-17)"
-      ]
-    },
-    {
-      "ticker": "EPG",
-      "symbol": "EPG.BK",
-      "last": 6.0,
-      "date": "2026-09-14",
-      "score": 1.0,
-      "tape": 1.0,
-      "info": 0.0,
-      "alert": false,
-      "private_channel_flag": false,
-      "ignition": null,
-      "components": {
-        "A3_squeeze": 1.0
-      },
-      "notes": [
-        "ATR 3.3% <= 25th pct (3.6%)"
       ]
     },
     {
       "ticker": "LTS",
       "symbol": "LTS.BK",
       "last": 2.62,
-      "date": "2026-09-14",
+      "date": "2026-09-15",
       "score": 1.0,
       "tape": 1.0,
       "info": 0.0,
@@ -129,8 +111,8 @@
     {
       "ticker": "S",
       "symbol": "S.BK",
-      "last": 0.54,
-      "date": "2026-09-14",
+      "last": 0.53,
+      "date": "2026-09-15",
       "score": 1.0,
       "tape": 1.0,
       "info": 0.0,
@@ -145,10 +127,28 @@
       ]
     },
     {
+      "ticker": "PLAT",
+      "symbol": "PLAT.BK",
+      "last": 1.36,
+      "date": "2026-09-15",
+      "score": 1.0,
+      "tape": 1.0,
+      "info": 0.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A3_squeeze": 1.0
+      },
+      "notes": [
+        "ATR 2.4% <= 25th pct (2.7%)"
+      ]
+    },
+    {
       "ticker": "TPIPP",
       "symbol": "TPIPP.BK",
       "last": 1.76,
-      "date": "2026-09-14",
+      "date": "2026-09-15",
       "score": 0.0,
       "tape": 0.0,
       "info": 0.0,
@@ -160,29 +160,35 @@
         "A5_obv_down": -1.0
       },
       "notes": [
-        "ATR 0.9% <= 25th pct (1.2%)",
+        "ATR 0.8% <= 25th pct (1.2%)",
         "OBV falling (veto-weight)"
       ]
     },
     {
-      "ticker": "PLAT",
-      "symbol": "PLAT.BK",
-      "last": 1.36,
-      "date": "2026-09-14",
+      "ticker": "EPG",
+      "symbol": "EPG.BK",
+      "last": 5.85,
+      "date": "2026-09-15",
       "score": 0.0,
       "tape": 0.0,
       "info": 0.0,
       "alert": false,
       "private_channel_flag": false,
       "ignition": null,
-      "components": {},
-      "notes": []
+      "components": {
+        "A3_squeeze": 1.0,
+        "A5_obv_down": -1.0
+      },
+      "notes": [
+        "ATR 3.1% <= 25th pct (3.6%)",
+        "OBV falling (veto-weight)"
+      ]
     },
     {
       "ticker": "MGC",
       "symbol": "MGC.BK",
-      "last": 7.0,
-      "date": "2026-09-14",
+      "last": 6.9,
+      "date": "2026-09-15",
       "score": 0.0,
       "tape": -1.0,
       "info": 1.0,
