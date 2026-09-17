@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-09-16 17:09 UTC",
+    "generated": "2026-09-17 17:10 UTC",
     "alert_threshold": 4.0,
     "errors": []
   },
@@ -8,8 +8,8 @@
     {
       "ticker": "TPIPL",
       "symbol": "TPIPL.BK",
-      "last": 0.94,
-      "date": "2026-09-16",
+      "last": 0.96,
+      "date": "2026-09-17",
       "score": 3.5,
       "tape": 3.5,
       "info": 0.0,
@@ -22,14 +22,14 @@
       },
       "notes": [
         "leak 3.8x on 2026-09-10 (price pinned)",
-        "5d vol 2.22x avg20, rising"
+        "5d vol 1.82x avg20, rising"
       ]
     },
     {
       "ticker": "SALEE",
       "symbol": "SALEE.BK",
       "last": 0.56,
-      "date": "2026-09-16",
+      "date": "2026-09-17",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -49,7 +49,7 @@
       "ticker": "CAZ",
       "symbol": "CAZ.BK",
       "last": 2.32,
-      "date": "2026-09-16",
+      "date": "2026-09-17",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -66,31 +66,30 @@
       ]
     },
     {
-      "ticker": "STPI",
-      "symbol": "STPI.BK",
-      "last": 5.5,
-      "date": "2026-09-16",
-      "score": 1.0,
-      "tape": 0.0,
-      "info": 1.0,
+      "ticker": "S",
+      "symbol": "S.BK",
+      "last": 0.52,
+      "date": "2026-09-17",
+      "score": 1.5,
+      "tape": 1.5,
+      "info": 0.0,
       "alert": false,
       "private_channel_flag": false,
       "ignition": null,
       "components": {
         "A3_squeeze": 1.0,
-        "A5_obv_down": -1.0
+        "A5_obv_up": 0.5
       },
       "notes": [
-        "ATR 3.8% <= 25th pct (3.8%)",
-        "OBV falling (veto-weight)",
-        "theme data-center land monetization (2026-07-17)"
+        "ATR 2.9% <= 25th pct (3.1%)",
+        "OBV rising"
       ]
     },
     {
-      "ticker": "S",
-      "symbol": "S.BK",
-      "last": 0.53,
-      "date": "2026-09-16",
+      "ticker": "EPG",
+      "symbol": "EPG.BK",
+      "last": 5.95,
+      "date": "2026-09-17",
       "score": 1.0,
       "tape": 1.0,
       "info": 0.0,
@@ -101,32 +100,14 @@
         "A3_squeeze": 1.0
       },
       "notes": [
-        "ATR 2.8% <= 25th pct (3.1%)"
-      ]
-    },
-    {
-      "ticker": "PLAT",
-      "symbol": "PLAT.BK",
-      "last": 1.38,
-      "date": "2026-09-16",
-      "score": 1.0,
-      "tape": 1.0,
-      "info": 0.0,
-      "alert": false,
-      "private_channel_flag": false,
-      "ignition": null,
-      "components": {
-        "A3_squeeze": 1.0
-      },
-      "notes": [
-        "ATR 2.2% <= 25th pct (2.7%)"
+        "ATR 2.9% <= 25th pct (3.5%)"
       ]
     },
     {
       "ticker": "TPIPP",
       "symbol": "TPIPP.BK",
       "last": 1.75,
-      "date": "2026-09-16",
+      "date": "2026-09-17",
       "score": 0.0,
       "tape": 0.0,
       "info": 0.0,
@@ -138,35 +119,34 @@
         "A5_obv_down": -1.0
       },
       "notes": [
-        "ATR 0.8% <= 25th pct (1.2%)",
+        "ATR 0.8% <= 25th pct (1.1%)",
         "OBV falling (veto-weight)"
       ]
     },
     {
-      "ticker": "EPG",
-      "symbol": "EPG.BK",
-      "last": 5.9,
-      "date": "2026-09-16",
+      "ticker": "STPI",
+      "symbol": "STPI.BK",
+      "last": 5.65,
+      "date": "2026-09-17",
       "score": 0.0,
-      "tape": 0.0,
-      "info": 0.0,
+      "tape": -1.0,
+      "info": 1.0,
       "alert": false,
       "private_channel_flag": false,
       "ignition": null,
       "components": {
-        "A3_squeeze": 1.0,
         "A5_obv_down": -1.0
       },
       "notes": [
-        "ATR 3.0% <= 25th pct (3.5%)",
-        "OBV falling (veto-weight)"
+        "OBV falling (veto-weight)",
+        "theme data-center land monetization (2026-07-17)"
       ]
     },
     {
       "ticker": "LTS",
       "symbol": "LTS.BK",
-      "last": 2.5,
-      "date": "2026-09-16",
+      "last": 2.56,
+      "date": "2026-09-17",
       "score": 0.0,
       "tape": 0.0,
       "info": 0.0,
@@ -183,10 +163,30 @@
       ]
     },
     {
+      "ticker": "PLAT",
+      "symbol": "PLAT.BK",
+      "last": 1.38,
+      "date": "2026-09-17",
+      "score": 0.0,
+      "tape": 0.0,
+      "info": 0.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A3_squeeze": 1.0,
+        "A5_obv_down": -1.0
+      },
+      "notes": [
+        "ATR 2.1% <= 25th pct (2.7%)",
+        "OBV falling (veto-weight)"
+      ]
+    },
+    {
       "ticker": "MGC",
       "symbol": "MGC.BK",
-      "last": 6.55,
-      "date": "2026-09-16",
+      "last": 6.8,
+      "date": "2026-09-17",
       "score": 0.0,
       "tape": -1.0,
       "info": 1.0,
