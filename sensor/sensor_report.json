@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-09-18 16:34 UTC",
+    "generated": "2026-09-21 18:14 UTC",
     "alert_threshold": 4.0,
     "errors": []
   },
@@ -8,8 +8,8 @@
     {
       "ticker": "SALEE",
       "symbol": "SALEE.BK",
-      "last": 0.55,
-      "date": "2026-09-18",
+      "last": 0.54,
+      "date": "2026-09-21",
       "score": 3.5,
       "tape": 3.5,
       "info": 0.0,
@@ -30,54 +30,8 @@
     {
       "ticker": "TPIPP",
       "symbol": "TPIPP.BK",
-      "last": 1.67,
-      "date": "2026-09-18",
-      "score": 2.5,
-      "tape": 2.5,
-      "info": 0.0,
-      "alert": false,
-      "private_channel_flag": false,
-      "ignition": null,
-      "components": {
-        "A1_burst": 1.0,
-        "A2_crescendo": 1.5,
-        "A3_squeeze": 1.0,
-        "A5_obv_down": -1.0
-      },
-      "notes": [
-        "burst 17.3x on 2026-09-18",
-        "5d vol 2.22x avg20, rising",
-        "ATR 1.1% <= 25th pct (1.1%)",
-        "OBV falling (veto-weight)"
-      ]
-    },
-    {
-      "ticker": "S",
-      "symbol": "S.BK",
-      "last": 0.55,
-      "date": "2026-09-18",
-      "score": 2.5,
-      "tape": 2.5,
-      "info": 0.0,
-      "alert": false,
-      "private_channel_flag": false,
-      "ignition": "+5.8% on 3.1x vol TODAY",
-      "components": {
-        "A1_burst": 1.0,
-        "A3_squeeze": 1.0,
-        "A5_obv_up": 0.5
-      },
-      "notes": [
-        "burst 3.4x on 2026-09-18",
-        "ATR 3.0% <= 25th pct (3.1%)",
-        "OBV rising"
-      ]
-    },
-    {
-      "ticker": "CAZ",
-      "symbol": "CAZ.BK",
-      "last": 2.42,
-      "date": "2026-09-18",
+      "last": 1.71,
+      "date": "2026-09-21",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -86,18 +40,20 @@
       "ignition": null,
       "components": {
         "A1_leak": 2.0,
-        "A5_obv_up": 0.5
+        "A2_crescendo": 1.5,
+        "A5_obv_down": -1.0
       },
       "notes": [
-        "leak 4.8x on 2026-08-24 (price pinned)",
-        "OBV rising"
+        "leak 4.5x on 2026-09-21 (price pinned)",
+        "5d vol 2.64x avg20, rising",
+        "OBV falling (veto-weight)"
       ]
     },
     {
       "ticker": "TPIPL",
       "symbol": "TPIPL.BK",
       "last": 0.95,
-      "date": "2026-09-18",
+      "date": "2026-09-21",
       "score": 2.0,
       "tape": 2.0,
       "info": 0.0,
@@ -112,68 +68,73 @@
       ]
     },
     {
-      "ticker": "EPG",
-      "symbol": "EPG.BK",
-      "last": 5.9,
-      "date": "2026-09-18",
-      "score": 1.0,
-      "tape": 1.0,
+      "ticker": "LTS",
+      "symbol": "LTS.BK",
+      "last": 2.62,
+      "date": "2026-09-21",
+      "score": 1.5,
+      "tape": 1.5,
       "info": 0.0,
       "alert": false,
       "private_channel_flag": false,
       "ignition": null,
       "components": {
-        "A3_squeeze": 1.0
+        "A3_squeeze": 1.0,
+        "A5_obv_up": 0.5
       },
       "notes": [
-        "ATR 2.9% <= 25th pct (3.5%)"
+        "ATR 4.4% <= 25th pct (4.5%)",
+        "OBV rising"
       ]
     },
     {
-      "ticker": "LTS",
-      "symbol": "LTS.BK",
-      "last": 2.56,
-      "date": "2026-09-18",
-      "score": 1.0,
-      "tape": 1.0,
+      "ticker": "S",
+      "symbol": "S.BK",
+      "last": 0.55,
+      "date": "2026-09-21",
+      "score": 1.5,
+      "tape": 1.5,
       "info": 0.0,
       "alert": false,
       "private_channel_flag": false,
       "ignition": null,
       "components": {
-        "A3_squeeze": 1.0
+        "A1_burst": 1.0,
+        "A5_obv_up": 0.5
       },
       "notes": [
-        "ATR 4.5% <= 25th pct (4.5%)"
+        "burst 3.4x on 2026-09-18",
+        "OBV rising"
+      ]
+    },
+    {
+      "ticker": "CAZ",
+      "symbol": "CAZ.BK",
+      "last": 2.42,
+      "date": "2026-09-21",
+      "score": 1.5,
+      "tape": 1.5,
+      "info": 0.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A1_burst": 1.0,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "burst 9.8x on 2026-08-31",
+        "OBV rising"
       ]
     },
     {
       "ticker": "STPI",
       "symbol": "STPI.BK",
-      "last": 5.55,
-      "date": "2026-09-18",
-      "score": 0.0,
-      "tape": -1.0,
-      "info": 1.0,
-      "alert": false,
-      "private_channel_flag": false,
-      "ignition": null,
-      "components": {
-        "A5_obv_down": -1.0
-      },
-      "notes": [
-        "OBV falling (veto-weight)",
-        "theme data-center land monetization (2026-07-17)"
-      ]
-    },
-    {
-      "ticker": "PLAT",
-      "symbol": "PLAT.BK",
-      "last": 1.37,
-      "date": "2026-09-18",
-      "score": 0.0,
+      "last": 5.6,
+      "date": "2026-09-21",
+      "score": 1.0,
       "tape": 0.0,
-      "info": 0.0,
+      "info": 1.0,
       "alert": false,
       "private_channel_flag": false,
       "ignition": null,
@@ -182,15 +143,52 @@
         "A5_obv_down": -1.0
       },
       "notes": [
-        "ATR 2.1% <= 25th pct (2.6%)",
-        "OBV falling (veto-weight)"
+        "ATR 3.7% <= 25th pct (3.8%)",
+        "OBV falling (veto-weight)",
+        "theme data-center land monetization (2026-07-17)"
+      ]
+    },
+    {
+      "ticker": "EPG",
+      "symbol": "EPG.BK",
+      "last": 6.1,
+      "date": "2026-09-21",
+      "score": 1.0,
+      "tape": 1.0,
+      "info": 0.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A3_squeeze": 1.0
+      },
+      "notes": [
+        "ATR 2.7% <= 25th pct (3.5%)"
+      ]
+    },
+    {
+      "ticker": "PLAT",
+      "symbol": "PLAT.BK",
+      "last": 1.37,
+      "date": "2026-09-21",
+      "score": 1.0,
+      "tape": 1.0,
+      "info": 0.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A3_squeeze": 1.0
+      },
+      "notes": [
+        "ATR 2.0% <= 25th pct (2.5%)"
       ]
     },
     {
       "ticker": "MGC",
       "symbol": "MGC.BK",
-      "last": 6.8,
-      "date": "2026-09-18",
+      "last": 6.75,
+      "date": "2026-09-21",
       "score": 0.0,
       "tape": -1.0,
       "info": 1.0,
