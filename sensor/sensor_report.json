@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-10-20 17:22 UTC",
+    "generated": "2026-10-21 17:25 UTC",
     "alert_threshold": 4.0,
     "errors": []
   },
@@ -9,7 +9,7 @@
       "ticker": "SALEE",
       "symbol": "SALEE.BK",
       "last": 0.55,
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -23,15 +23,15 @@
       },
       "notes": [
         "burst 13.4x on 2026-09-22",
-        "ATR 3.1% <= 25th pct (4.0%)",
+        "ATR 3.2% <= 25th pct (4.0%)",
         "OBV rising"
       ]
     },
     {
       "ticker": "LTS",
       "symbol": "LTS.BK",
-      "last": 2.46,
-      "date": "2026-10-20",
+      "last": 2.48,
+      "date": "2026-10-21",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -45,15 +45,37 @@
       },
       "notes": [
         "burst 13.2x on 2026-10-07",
-        "ATR 4.0% <= 25th pct (4.2%)",
+        "ATR 3.9% <= 25th pct (4.2%)",
         "OBV rising"
+      ]
+    },
+    {
+      "ticker": "STPI",
+      "symbol": "STPI.BK",
+      "last": 5.85,
+      "date": "2026-10-21",
+      "score": 1.5,
+      "tape": 1.5,
+      "info": 0.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": "+7.3% on 3.2x vol TODAY",
+      "components": {
+        "A1_burst": 1.0,
+        "A2_crescendo": 1.5,
+        "A5_obv_down": -1.0
+      },
+      "notes": [
+        "burst 3.7x on 2026-10-21",
+        "5d vol 1.49x avg20, rising",
+        "OBV falling (veto-weight)"
       ]
     },
     {
       "ticker": "EPG",
       "symbol": "EPG.BK",
-      "last": 6.45,
-      "date": "2026-10-20",
+      "last": 6.55,
+      "date": "2026-10-21",
       "score": 1.5,
       "tape": 1.5,
       "info": 0.0,
@@ -70,50 +92,10 @@
       ]
     },
     {
-      "ticker": "TPIPP",
-      "symbol": "TPIPP.BK",
-      "last": 1.58,
-      "date": "2026-10-20",
-      "score": 1.0,
-      "tape": 1.0,
-      "info": 0.0,
-      "alert": false,
-      "private_channel_flag": false,
-      "ignition": null,
-      "components": {
-        "A1_leak": 2.0,
-        "A5_obv_down": -1.0
-      },
-      "notes": [
-        "leak 4.5x on 2026-09-21 (price pinned)",
-        "OBV falling (veto-weight)"
-      ]
-    },
-    {
-      "ticker": "TPIPL",
-      "symbol": "TPIPL.BK",
-      "last": 0.88,
-      "date": "2026-10-20",
-      "score": 0.0,
-      "tape": 0.0,
-      "info": 0.0,
-      "alert": false,
-      "private_channel_flag": false,
-      "ignition": null,
-      "components": {
-        "A3_squeeze": 1.0,
-        "A5_obv_down": -1.0
-      },
-      "notes": [
-        "ATR 2.9% <= 25th pct (3.0%)",
-        "OBV falling (veto-weight)"
-      ]
-    },
-    {
       "ticker": "PLAT",
       "symbol": "PLAT.BK",
-      "last": 1.31,
-      "date": "2026-10-20",
+      "last": 1.29,
+      "date": "2026-10-21",
       "score": 0.0,
       "tape": 0.0,
       "info": 0.0,
@@ -132,8 +114,8 @@
     {
       "ticker": "MGC",
       "symbol": "MGC.BK",
-      "last": 6.6,
-      "date": "2026-10-20",
+      "last": 6.55,
+      "date": "2026-10-21",
       "score": 0.0,
       "tape": 0.0,
       "info": 0.0,
@@ -152,8 +134,8 @@
     {
       "ticker": "CAZ",
       "symbol": "CAZ.BK",
-      "last": 2.3,
-      "date": "2026-10-20",
+      "last": 2.28,
+      "date": "2026-10-21",
       "score": 0.0,
       "tape": 0.0,
       "info": 0.0,
@@ -165,15 +147,33 @@
         "A5_obv_down": -1.0
       },
       "notes": [
-        "ATR 2.5% <= 25th pct (3.5%)",
+        "ATR 2.6% <= 25th pct (3.5%)",
         "OBV falling (veto-weight)"
       ]
     },
     {
-      "ticker": "STPI",
-      "symbol": "STPI.BK",
-      "last": 5.45,
-      "date": "2026-10-20",
+      "ticker": "TPIPL",
+      "symbol": "TPIPL.BK",
+      "last": 0.89,
+      "date": "2026-10-21",
+      "score": -1.0,
+      "tape": -1.0,
+      "info": 0.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A5_obv_down": -1.0
+      },
+      "notes": [
+        "OBV falling (veto-weight)"
+      ]
+    },
+    {
+      "ticker": "TPIPP",
+      "symbol": "TPIPP.BK",
+      "last": 1.58,
+      "date": "2026-10-21",
       "score": -1.0,
       "tape": -1.0,
       "info": 0.0,
@@ -191,7 +191,7 @@
       "ticker": "S",
       "symbol": "S.BK",
       "last": 0.51,
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "score": -1.0,
       "tape": -1.0,
       "info": 0.0,
