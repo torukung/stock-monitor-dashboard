@@ -1,37 +1,15 @@
 {
   "meta": {
-    "generated": "2026-11-20 20:35 UTC",
+    "generated": "2026-11-24 00:08 UTC",
     "alert_threshold": 4.0,
     "errors": []
   },
   "results": [
     {
-      "ticker": "PLAT",
-      "symbol": "PLAT.BK",
-      "last": 1.47,
-      "date": "2026-11-20",
-      "score": 4.0,
-      "tape": 4.0,
-      "info": 0.0,
-      "alert": true,
-      "private_channel_flag": true,
-      "ignition": null,
-      "components": {
-        "A1_leak": 2.0,
-        "A2_crescendo": 1.5,
-        "A5_obv_up": 0.5
-      },
-      "notes": [
-        "leak 3.5x on 2026-11-13 (price pinned)",
-        "5d vol 3.29x avg20, rising",
-        "OBV rising"
-      ]
-    },
-    {
       "ticker": "SALEE",
       "symbol": "SALEE.BK",
       "last": 0.48,
-      "date": "2026-11-20",
+      "date": "2026-11-23",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -50,8 +28,8 @@
     {
       "ticker": "S",
       "symbol": "S.BK",
-      "last": 0.51,
-      "date": "2026-11-20",
+      "last": 0.52,
+      "date": "2026-11-23",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -65,15 +43,35 @@
       },
       "notes": [
         "leak 6.1x on 2026-11-11 (price pinned)",
-        "5d vol 2.01x avg20, rising",
+        "5d vol 2.00x avg20, rising",
         "OBV falling (veto-weight)"
+      ]
+    },
+    {
+      "ticker": "PLAT",
+      "symbol": "PLAT.BK",
+      "last": 1.49,
+      "date": "2026-11-23",
+      "score": 2.5,
+      "tape": 2.5,
+      "info": 0.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A1_leak": 2.0,
+        "A5_obv_up": 0.5
+      },
+      "notes": [
+        "leak 3.5x on 2026-11-13 (price pinned)",
+        "OBV rising"
       ]
     },
     {
       "ticker": "CAZ",
       "symbol": "CAZ.BK",
       "last": 2.14,
-      "date": "2026-11-20",
+      "date": "2026-11-23",
       "score": 2.0,
       "tape": 2.0,
       "info": 0.0,
@@ -90,8 +88,8 @@
     {
       "ticker": "STPI",
       "symbol": "STPI.BK",
-      "last": 4.58,
-      "date": "2026-11-20",
+      "last": 4.46,
+      "date": "2026-11-23",
       "score": 1.0,
       "tape": 1.0,
       "info": 0.0,
@@ -110,8 +108,8 @@
     {
       "ticker": "EPG",
       "symbol": "EPG.BK",
-      "last": 5.32,
-      "date": "2026-11-20",
+      "last": 5.26,
+      "date": "2026-11-23",
       "score": 0.0,
       "tape": 0.0,
       "info": 0.0,
@@ -131,7 +129,7 @@
       "ticker": "LTS",
       "symbol": "LTS.BK",
       "last": 1.57,
-      "date": "2026-11-20",
+      "date": "2026-11-23",
       "score": 0.0,
       "tape": 0.0,
       "info": 0.0,
@@ -150,8 +148,8 @@
     {
       "ticker": "TPIPL",
       "symbol": "TPIPL.BK",
-      "last": 0.79,
-      "date": "2026-11-20",
+      "last": 0.8,
+      "date": "2026-11-23",
       "score": -1.0,
       "tape": -1.0,
       "info": 0.0,
@@ -169,7 +167,7 @@
       "ticker": "TPIPP",
       "symbol": "TPIPP.BK",
       "last": 1.43,
-      "date": "2026-11-20",
+      "date": "2026-11-23",
       "score": -1.0,
       "tape": -1.0,
       "info": 0.0,
@@ -186,8 +184,8 @@
     {
       "ticker": "MGC",
       "symbol": "MGC.BK",
-      "last": 5.38,
-      "date": "2026-11-20",
+      "last": 5.3,
+      "date": "2026-11-23",
       "score": -1.0,
       "tape": -1.0,
       "info": 0.0,
