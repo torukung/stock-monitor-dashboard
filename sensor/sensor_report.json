@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-11-24 00:08 UTC",
+    "generated": "2026-11-24 22:38 UTC",
     "alert_threshold": 4.0,
     "errors": []
   },
@@ -9,7 +9,7 @@
       "ticker": "SALEE",
       "symbol": "SALEE.BK",
       "last": 0.48,
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -26,32 +26,10 @@
       ]
     },
     {
-      "ticker": "S",
-      "symbol": "S.BK",
-      "last": 0.52,
-      "date": "2026-11-23",
-      "score": 2.5,
-      "tape": 2.5,
-      "info": 0.0,
-      "alert": false,
-      "private_channel_flag": false,
-      "ignition": null,
-      "components": {
-        "A1_leak": 2.0,
-        "A2_crescendo": 1.5,
-        "A5_obv_down": -1.0
-      },
-      "notes": [
-        "leak 6.1x on 2026-11-11 (price pinned)",
-        "5d vol 2.00x avg20, rising",
-        "OBV falling (veto-weight)"
-      ]
-    },
-    {
       "ticker": "PLAT",
       "symbol": "PLAT.BK",
       "last": 1.49,
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "score": 2.5,
       "tape": 2.5,
       "info": 0.0,
@@ -71,7 +49,7 @@
       "ticker": "CAZ",
       "symbol": "CAZ.BK",
       "last": 2.14,
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "score": 2.0,
       "tape": 2.0,
       "info": 0.0,
@@ -88,8 +66,8 @@
     {
       "ticker": "STPI",
       "symbol": "STPI.BK",
-      "last": 4.46,
-      "date": "2026-11-23",
+      "last": 4.44,
+      "date": "2026-11-24",
       "score": 1.0,
       "tape": 1.0,
       "info": 0.0,
@@ -106,10 +84,30 @@
       ]
     },
     {
+      "ticker": "S",
+      "symbol": "S.BK",
+      "last": 0.52,
+      "date": "2026-11-24",
+      "score": 1.0,
+      "tape": 1.0,
+      "info": 0.0,
+      "alert": false,
+      "private_channel_flag": false,
+      "ignition": null,
+      "components": {
+        "A1_leak": 2.0,
+        "A5_obv_down": -1.0
+      },
+      "notes": [
+        "leak 6.1x on 2026-11-11 (price pinned)",
+        "OBV falling (veto-weight)"
+      ]
+    },
+    {
       "ticker": "EPG",
       "symbol": "EPG.BK",
-      "last": 5.26,
-      "date": "2026-11-23",
+      "last": 5.28,
+      "date": "2026-11-24",
       "score": 0.0,
       "tape": 0.0,
       "info": 0.0,
@@ -128,8 +126,8 @@
     {
       "ticker": "LTS",
       "symbol": "LTS.BK",
-      "last": 1.57,
-      "date": "2026-11-23",
+      "last": 1.56,
+      "date": "2026-11-24",
       "score": 0.0,
       "tape": 0.0,
       "info": 0.0,
@@ -148,8 +146,8 @@
     {
       "ticker": "TPIPL",
       "symbol": "TPIPL.BK",
-      "last": 0.8,
-      "date": "2026-11-23",
+      "last": 0.78,
+      "date": "2026-11-24",
       "score": -1.0,
       "tape": -1.0,
       "info": 0.0,
@@ -166,8 +164,8 @@
     {
       "ticker": "TPIPP",
       "symbol": "TPIPP.BK",
-      "last": 1.43,
-      "date": "2026-11-23",
+      "last": 1.41,
+      "date": "2026-11-24",
       "score": -1.0,
       "tape": -1.0,
       "info": 0.0,
@@ -184,8 +182,8 @@
     {
       "ticker": "MGC",
       "symbol": "MGC.BK",
-      "last": 5.3,
-      "date": "2026-11-23",
+      "last": 5.2,
+      "date": "2026-11-24",
       "score": -1.0,
       "tape": -1.0,
       "info": 0.0,
